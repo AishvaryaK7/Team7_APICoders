@@ -10,33 +10,41 @@ import io.restassured.response.Response;
 
 public class UserLoginRequest extends BaseClass
 {
+	
 	public static Response responseToken;
+	static String bearerToken;
 	
 	//User Login Post Request
 	@SuppressWarnings("unchecked")
 	public static Response postLogin(String Email,String Passwd,String Login_URL)
 	{	
+		
 		RestAssured.baseURI=routes.getString("baseURL");
 			
 		JSONObject payload = new JSONObject();
 		payload.put("password", Passwd);
 		payload.put("userLoginEmailId", Email);
+		
+		System.out.println(payload);
 			
 		responseToken = given().contentType("application/json").body(payload.toJSONString())
 		.when().post(Login_URL).then().extract().response();
-		
+
 		System.out.println(responseToken.statusCode());
 		
 		if (responseToken.statusCode()==200)
-		{
-			BearerToken = responseToken.jsonPath().getString("token");
+		{		
+			bearerToken = responseToken.jsonPath().getString("token");
 			System.out.println("Authorization successful");
-			System.out.println(BearerToken);
+			System.out.println(bearerToken);
 		}	
-		else 
+		else if(responseToken.statusCode()==401)
 		{ 
-			BearerToken = "";
 			System.out.println("Authorization Failed"); 
+		}
+		else if(responseToken.statusCode()==400)
+		{
+			System.out.println("Authorization Failed - Bad Request");
 		}
 			
 		return responseToken;

@@ -1,6 +1,7 @@
 Feature: ProgramPutDeleteNOAuth
 
-Background:Given Admin sets Authorization to No Auth
+Background:
+Given Admin sets Authorization to No Auth
 
 @Put Update  by Program Id
 Scenario:Check if Admin able to update a program without Authorization

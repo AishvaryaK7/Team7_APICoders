@@ -8,12 +8,10 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 
-
-@CucumberOptions(features ={"src/test/resources/Features/01UserLogin.feature","src/test/resources/Features/07UserLogout.feature"}, 
+@CucumberOptions(features ={"src/test/resources/Features/01UserLogin.feature", "src/test/resources/Features/05UserRoleMap.feature", "src/test/resources/Features/05UserRoleMapNOAUTH.feature", "src/test/resources/Features/07UserLogout.feature"}, 
 glue = {"api.StepDefinition","api.BackgroundHooks"}, 
 strict = true,
 monochrome = true,
-
 plugin = {"pretty",
 		"html:target/Cucumber_html_report",
 		"json:target/Cucumber_json_report.json",

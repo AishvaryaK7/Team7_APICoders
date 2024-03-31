@@ -1,0 +1,55 @@
+[INFO ]2024-03-29 13:23:58.047 [main]BaseClass-Loggernull
+[INFO ]2024-03-29 13:23:58.304 [main]BaseClass-Loggernull
+[INFO ]2024-03-29 13:45:07.775 [main]BaseClass-Loggernull
+[INFO ]2024-03-29 13:45:08.016 [main]BaseClass-Loggernull
+[INFO ]2024-03-29 13:49:38.476 [main]BaseClass-Loggernull
+[INFO ]2024-03-29 13:49:38.695 [main]BaseClass-Loggernull
+[INFO ]2024-03-29 13:51:17.593 [main]BaseClass-Loggernull
+[INFO ]2024-03-29 13:51:17.818 [main]BaseClass-Loggernull
+[INFO ]2024-03-29 13:56:44.243 [main]BaseClass-Loggernull
+[INFO ]2024-03-29 13:56:44.487 [main]BaseClass-Loggernull
+[INFO ]2024-03-29 14:12:03.454 [main]BaseClass-Loggernull
+[INFO ]2024-03-29 14:12:03.686 [main]BaseClass-Loggernull
+[INFO ]2024-03-29 14:13:37.731 [main]BaseClass-Loggernull
+[INFO ]2024-03-29 14:13:37.964 [main]BaseClass-Loggernull
+[INFO ]2024-03-29 15:03:14.804 [main]BaseClass-Loggernull
+[INFO ]2024-03-29 15:03:15.040 [main]BaseClass-Loggernull
+[INFO ]2024-03-29 15:05:01.612 [main]BaseClass-Loggernull
+[INFO ]2024-03-29 15:05:01.850 [main]BaseClass-Loggernull
+[INFO ]2024-03-29 15:10:59.001 [main]BaseClass-Token from response: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJudW1weW5pbmphQGdtYWlsLmNvbSIsImlhdCI6MTcxMTczOTMzMiwiZXhwIjoxNzExNzY4MTMyfQ.VoxZL9dg4D0f1Ljs70qLaKqCjEOvYsSSWspjVlPd-YKenqHykU-NDY5qev8HWia1NrpVuUV9F9vL1gC6pJlurA
+[INFO ]2024-03-29 15:10:59.009 [main]BaseClass-Token from Context: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJudW1weW5pbmphQGdtYWlsLmNvbSIsImlhdCI6MTcxMTczOTMzMiwiZXhwIjoxNzExNzY4MTMyfQ.VoxZL9dg4D0f1Ljs70qLaKqCjEOvYsSSWspjVlPd-YKenqHykU-NDY5qev8HWia1NrpVuUV9F9vL1gC6pJlurA
+[INFO ]2024-03-29 15:10:59.604 [main]BaseClass-Token from response: null
+[INFO ]2024-03-29 15:10:59.604 [main]BaseClass-Token from Context: null
+[INFO ]2024-03-29 15:10:59.660 [main]BaseClass-Loggernull
+[INFO ]2024-03-29 15:10:59.872 [main]BaseClass-Loggernull
+[INFO ]2024-03-29 15:14:07.246 [main]BaseClass-Token from response: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJudW1weW5pbmphQGdtYWlsLmNvbSIsImlhdCI6MTcxMTczOTUyMCwiZXhwIjoxNzExNzY4MzIwfQ.34ellsDmDMg65zAli3zgKfmokvdhyK0DFdC89kCQTNDGxhsFBNhm1n7QVb950BDIeN5QzUVEBmTy2O0coQ5EKg
+[INFO ]2024-03-29 15:14:07.258 [main]BaseClass-Token from Context: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJudW1weW5pbmphQGdtYWlsLmNvbSIsImlhdCI6MTcxMTczOTUyMCwiZXhwIjoxNzExNzY4MzIwfQ.34ellsDmDMg65zAli3zgKfmokvdhyK0DFdC89kCQTNDGxhsFBNhm1n7QVb950BDIeN5QzUVEBmTy2O0coQ5EKg
+[INFO ]2024-03-29 15:14:07.612 [main]BaseClass-Token from Context: null
+[INFO ]2024-03-29 15:14:07.884 [main]BaseClass-Token from response: null
+[INFO ]2024-03-29 15:14:07.884 [main]BaseClass-Token from Context: null
+[INFO ]2024-03-29 15:14:07.936 [main]BaseClass-Loggernull
+[INFO ]2024-03-29 15:14:08.207 [main]BaseClass-Loggernull
+[INFO ]2024-03-29 15:31:27.621 [main]BaseClass-Token from response: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJudW1weW5pbmphQGdtYWlsLmNvbSIsImlhdCI6MTcxMTc0MDU2MCwiZXhwIjoxNzExNzY5MzYwfQ.da0PW0tg2ljVX6MTh2POmaGKVGrVxcJ8vLOO8pOFrSgulUMJWX055xvKvoDL6IqjwLGrS6yN4KPwAnL3hZR8-Q
+[INFO ]2024-03-29 15:31:27.627 [main]BaseClass-Token from Context: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJudW1weW5pbmphQGdtYWlsLmNvbSIsImlhdCI6MTcxMTc0MDU2MCwiZXhwIjoxNzExNzY5MzYwfQ.da0PW0tg2ljVX6MTh2POmaGKVGrVxcJ8vLOO8pOFrSgulUMJWX055xvKvoDL6IqjwLGrS6yN4KPwAnL3hZR8-Q
+[INFO ]2024-03-29 15:31:27.941 [main]BaseClass-Token from Context: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJudW1weW5pbmphQGdtYWlsLmNvbSIsImlhdCI6MTcxMTc0MDU2MCwiZXhwIjoxNzExNzY5MzYwfQ.da0PW0tg2ljVX6MTh2POmaGKVGrVxcJ8vLOO8pOFrSgulUMJWX055xvKvoDL6IqjwLGrS6yN4KPwAnL3hZR8-Q
+[INFO ]2024-03-29 15:31:28.207 [main]BaseClass-Token from response: null
+[INFO ]2024-03-29 15:31:28.208 [main]BaseClass-Token from Context: null
+[INFO ]2024-03-29 15:31:28.273 [main]BaseClass-Loggernull
+[INFO ]2024-03-29 15:31:28.491 [main]BaseClass-Loggernull
+[INFO ]2024-03-29 16:14:01.277 [main]BaseClass-Token from response: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJudW1weW5pbmphQGdtYWlsLmNvbSIsImlhdCI6MTcxMTc0MzExMywiZXhwIjoxNzExNzcxOTEzfQ.pVEcZbGdp9EvlLhqm3nmGgenZLf4LdJU1YzRcsAIRZQA7-Fbcn31yAoIumr_uC6SK2xTR2oZhijL9AmI8hDK1Q
+[INFO ]2024-03-29 16:14:01.284 [main]BaseClass-Token from Context: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJudW1weW5pbmphQGdtYWlsLmNvbSIsImlhdCI6MTcxMTc0MzExMywiZXhwIjoxNzExNzcxOTEzfQ.pVEcZbGdp9EvlLhqm3nmGgenZLf4LdJU1YzRcsAIRZQA7-Fbcn31yAoIumr_uC6SK2xTR2oZhijL9AmI8hDK1Q
+[INFO ]2024-03-29 16:14:01.590 [main]BaseClass-Token from Context: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJudW1weW5pbmphQGdtYWlsLmNvbSIsImlhdCI6MTcxMTc0MzExMywiZXhwIjoxNzExNzcxOTEzfQ.pVEcZbGdp9EvlLhqm3nmGgenZLf4LdJU1YzRcsAIRZQA7-Fbcn31yAoIumr_uC6SK2xTR2oZhijL9AmI8hDK1Q
+[INFO ]2024-03-29 16:14:01.868 [main]BaseClass-Token from response: null
+[INFO ]2024-03-29 16:14:01.869 [main]BaseClass-Token from Context: null
+[INFO ]2024-03-29 16:14:01.933 [main]BaseClass-Loggernull
+[INFO ]2024-03-29 16:14:02.154 [main]BaseClass-Loggernull
+[INFO ]2024-03-29 16:18:30.764 [main]BaseClass-Token from response: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJudW1weW5pbmphQGdtYWlsLmNvbSIsImlhdCI6MTcxMTc0MzM4MywiZXhwIjoxNzExNzcyMTgzfQ.oD-VNc0NVd89NJ-Wz4PdWINgFq1cHXEIkdZcG40OiOUQhGCzfQ3BMeTUmf42liOeom30EbnO3c6sJqrEwVUHcA
+[INFO ]2024-03-29 16:18:30.769 [main]BaseClass-Token from Context: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJudW1weW5pbmphQGdtYWlsLmNvbSIsImlhdCI6MTcxMTc0MzM4MywiZXhwIjoxNzExNzcyMTgzfQ.oD-VNc0NVd89NJ-Wz4PdWINgFq1cHXEIkdZcG40OiOUQhGCzfQ3BMeTUmf42liOeom30EbnO3c6sJqrEwVUHcA
+[INFO ]2024-03-29 16:18:31.374 [main]BaseClass-Token from response: null
+[INFO ]2024-03-29 16:18:31.375 [main]BaseClass-Token from Context: null
+[INFO ]2024-03-29 16:18:31.459 [main]BaseClass-Loggernull
+[INFO ]2024-03-29 16:18:31.712 [main]BaseClass-Loggernull
+[INFO ]2024-03-29 16:37:22.811 [main]BaseClass-LoggereyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJudW1weW5pbmphQGdtYWlsLmNvbSIsImlhdCI6MTcxMTc0NDUxNCwiZXhwIjoxNzExNzczMzE0fQ.fuh6-vYBp4ptfQPI0CVbeliN2baR6KqttjiyorPEWG5wjwJIS_trOFO0VpjY8dhS6dERGh7lbXLmYSUI57gCMw
+[INFO ]2024-03-29 16:37:23.024 [main]BaseClass-LoggereyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJudW1weW5pbmphQGdtYWlsLmNvbSIsImlhdCI6MTcxMTc0NDUxNCwiZXhwIjoxNzExNzczMzE0fQ.fuh6-vYBp4ptfQPI0CVbeliN2baR6KqttjiyorPEWG5wjwJIS_trOFO0VpjY8dhS6dERGh7lbXLmYSUI57gCMw
+[INFO ]2024-03-29 16:55:32.575 [main]BaseClass-LoggereyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJudW1weW5pbmphQGdtYWlsLmNvbSIsImlhdCI6MTcxMTc0NTYwNCwiZXhwIjoxNzExNzc0NDA0fQ.O8xn1id6djZqwWryi3bEOuyxYJngUSTB_dAkwDSRQnAxMUBWLGyC3oxILH1vV5dxfiCA3fwDDhI5Mx03qGIQPA
+[INFO ]2024-03-29 16:55:32.832 [main]BaseClass-LoggereyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJudW1weW5pbmphQGdtYWlsLmNvbSIsImlhdCI6MTcxMTc0NTYwNCwiZXhwIjoxNzExNzc0NDA0fQ.O8xn1id6djZqwWryi3bEOuyxYJngUSTB_dAkwDSRQnAxMUBWLGyC3oxILH1vV5dxfiCA3fwDDhI5Mx03qGIQPA

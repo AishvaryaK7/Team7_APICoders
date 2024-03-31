@@ -13,7 +13,7 @@ import io.restassured.specification.RequestSpecification;
 public class BaseClass 
 {
 	public static String BearerToken = "";
-	
+	public static Logger log = LogManager.getLogger();
 	public static RequestSpecification ReqSpec;
 	public static Response response;
 	

@@ -5,6 +5,7 @@ import java.util.ResourceBundle;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
@@ -12,7 +13,6 @@ import io.restassured.specification.RequestSpecification;
 
 public class BaseClass 
 {
-	public static String BearerToken = "";
 	
 	public static RequestSpecification ReqSpec;
 	public static Response response;
@@ -25,17 +25,22 @@ public class BaseClass
 
 	//Resource Bundle for Path.properties file
 	public static ResourceBundle path = ResourceBundle.getBundle("Path");
+	
+	
 	public static ExcelUtilis xlutils=new ExcelUtilis(path.getString("TestDataFile"));
+	
+	public static boolean backgroundExecuted = false;
 
-	//public static Logger log = LogManager.getLogger();
+	public static Logger log = LogManager.getLogger();
 	
 	//Payload Objects
-	
 
+	
 	//Sets the Request Header with Authentication 
-	public void setRequestHeader() 
+	public void setRequestHeader(String BearerToken) 
 	{		
 		ReqSpec= new RequestSpecBuilder().setBaseUri(routes.getString("baseURL")).setContentType("application/json").build();
-		ReqSpec.header("Authorization","Bearer "+BearerToken);
+		ReqSpec.header("Authorization","Bearer " +BearerToken);
+		System.out.println("Inside SetRequest Header - Bearer Token - "+BearerToken);
 	}
 }

@@ -1,8 +1,5 @@
 
-@tag
 Feature: User Logout LMS API
- 
-  Background: Given UserLogin_Generate_Token
 
 	@UserLogout_Successful
 	Scenario: Check if Admin able to logout 

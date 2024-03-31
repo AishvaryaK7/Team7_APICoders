@@ -17,6 +17,10 @@ public class BaseClass
 	public static RequestSpecification ReqSpec;
 	public static Response response;
 	
+	public static String Token;
+	public static int PROGRAMID;
+	public static String PROGRAMNAME;
+	
 	//Resource Bundle for Credentials.properties file
 	public static ResourceBundle login = ResourceBundle.getBundle("Credentials");
 	

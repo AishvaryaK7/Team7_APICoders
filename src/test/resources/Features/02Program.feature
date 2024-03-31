@@ -1,32 +1,119 @@
+Feature: Program
 
-@tag
-Feature: Program Module
-  
-  @Background: UserLogin with Valid Credentials
-  Scenario: Check if Admin able to generate token with valid credential
-    Given Admin creates request with valid credentials
-    When Admin calls Post Https method  with valid endpoint    
-    Then Admin receives 201 created with auto generated token
+    @AddNewProgram1
+   	Scenario Outline: Check if Admin able to create a program with valid endpoint and request body with Authorization
+    Given Admin creates POST request by reading from Excel "<rowNumber>" with auth
+    When Admin sends HTTPS Request 
+    Then Admin receives "<expectedStatusCode>" Created Status with response body
+    Examples:
+    | rowNumber | expectedStatusCode |
+    | 0 | 201 |
+    | 1 | 400 |
+    | 2 | 400 |
+    | 3 | 400 |
+    | 4 | 400 |
+    | 5 | 400 |
+    
+    @AddNewProgram3
+    Scenario: Check if Admin able to create a program with invalid endpoint
+    Given Admin creates POST Request for the LMS with request body with auth
+    When Admin sends HTTPS Request and request Body with invalid endpoint
+    Then Admin receives 404 Status
+    
+    @AddNewProgram4
+    Scenario: Check if Admin able to create a program with already existing program name
+   	Given Admin creates POST Request for the LMS with request body with existing program name with auth
+    When Admin sends HTTPS Request
+    Then Admin receives 400 Status
+   
+    @AddNewProgram5
+    Scenario: Check if Admin able to create a program with invalid method
+    Given Admin creates POST Request for the LMS with request body with auth
+    When Admin sends HTTPS Request and request Body with endpoint with invalid method
+    Then Admin receives 405 Status
+   
+    @AddNewProgram6
+    Scenario: Check if Admin able to create a program with invalid request body
+    Given Admin creates POST Request for the LMS with invalid request body with auth
+    When Admin sends HTTPS Request
+    Then Admin receives 400 Status
+		
+		@GetAll1
+		Scenario: Check if Admin able to retrieve all programs with valid Endpoint
+		Given Admin creates GET Request for the LMS API with auth
+		When Admin sends HTTPS Request with endpoint
+		Then Admin receives 200 Status
+		
+		@GetAll2
+		Scenario: Check if Admin able to retrieve all programs with invalid Endpoint
+		Given Admin creates GET Request for the LMS API with auth
+		When Admin sends HTTPS get Request with invalid endpoint
+		Then Admin receives 404 Status
+	
+		@GetAll3
+		Scenario: Check if Admin able to retrieve all programs with invalid Method
+		Given Admin creates GET Request for the LMS API with auth
+		When Admin sends HTTPS Request with invalid method
+		Then Admin receives 405 Status
+		
+		@GetProgramID1
+		Scenario: Check if Admin able to retrieve a program with valid program ID
+		Given Admin creates GET Request for the LMS API with auth
+		When Admin sends GET Request for the LMS API for valid program ID
+		Then Admin receives 200 Status
 
-  @tag1
-  Scenario: Title of your scenario
-    Given I want to write a step with precondition
-    And some other precondition
-    When I complete action
-    And some other action
-    And yet another action
-    Then I validate the outcomes
-    And check more outcomes
+		@GetProgramID2
+		Scenario: Check if Admin able to retrieve a program with invalid program ID
+		Given Admin creates GET Request for the LMS API with auth
+		When Admin sends GET Request for the LMS API for invalid program ID
+		Then Admin receives 404 Status
+		
+		@GetProgramID3
+		Scenario: Check if Admin able to retrieve a program with invalid baseURL
+		Given Admin creates GET Request for the LMS API with auth
+		When Admin sends GET Request for the LMS API with invalid baseURL
+		Then Admin receives 404 Status
 
-  @tag2
-  Scenario Outline: Title of your scenario outline
-    Given I want to write a step with <name>
-    When I check for the <value> in step
-    Then I verify the <status> in step
+		@GetAllProgramsWithAdmins1
+		Scenario: Check if Admin able to retrieve all programs with valid Endpoint
+		Given Admin creates GET Request for the LMS API with auth
+		When Admin sends GET Request with valid endpoint for all users
+		Then Admin receives 200 Status
+		
+		@GetAllProgramsWithAdmins2
+		Scenario: Check if Admin able to retrieve all programs with invalid Endpoint
+		Given Admin creates GET Request for the LMS API with auth
+		When Admin sends GET Request with invalid endpoint for all users
+		Then Admin receives 404 Status
+		
+		@GetAllProgramsWithAdmins3
+		Scenario: Check if Admin able to retrieve all programs with invalid Method
+		Given Admin creates GET Request for the LMS API with auth
+		When Admin sends GET Request with invalid method for all users
+		Then Admin receives 405 Status
 
-    Examples: 
-      | name  | value | status  |
-      | name1 |     5 | success |
-      | name2 |     7 | Fail    |
-      
- @tagNo_Authorization
+		@AddNewProgram2
+  	Scenario: Check if Admin able to create a program with valid endpoint and request body without Authorization
+    Given Admin creates POST Request for the LMS with request body with noauth
+    When Admin sends HTTPS Request
+    Then Admin receives 401 Status
+    
+    @GetAll4
+		Scenario: Check if Admin able to retrieve all programs without Authorization
+		Given Admin creates GET Request for the LMS API with noauth
+		When Admin sends HTTPS Request with endpoint
+		Then Admin receives 401 Status
+		
+		@GetProgramID4
+		Scenario: Check if Admin able to retrieve a program without Authorization
+		Given Admin creates GET Request for the LMS API with noauth
+		When Admin sends HTTPS Request with endpoint
+		Then Admin receives 401 Status
+		
+		@GetAllProgramsWithAdmins4
+		Scenario: Check if Admin able to retrieve all programs without Authorization
+		Given Admin creates GET Request for the LMS API with noauth
+		When Admin sends HTTPS Request with endpoint
+		Then Admin receives 401 Status
+	
+		

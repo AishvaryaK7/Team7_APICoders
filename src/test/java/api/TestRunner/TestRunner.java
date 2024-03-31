@@ -13,6 +13,7 @@ import io.cucumber.junit.CucumberOptions;
 glue = {"api.StepDefinition","api.BackgroundHooks"}, 
 strict = true,
 monochrome = true,
+//tags = "@GetAll1"
 
 plugin = {"pretty",
 		"html:target/Cucumber_html_report",
@@ -24,7 +25,6 @@ plugin = {"pretty",
 
 
 public class TestRunner
-{
-	
+{	
 	public static TestContextSetUp testContext = new TestContextSetUp();
 }

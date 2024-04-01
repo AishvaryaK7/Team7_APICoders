@@ -12,7 +12,7 @@ public class UserLoginRequest extends BaseClass
 {
 	
 	public static Response responseToken;
-	public static String bearerToken;
+	static String bearerToken;
 	
 	//User Login Post Request
 	@SuppressWarnings("unchecked")

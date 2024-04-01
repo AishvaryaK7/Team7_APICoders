@@ -110,15 +110,7 @@ import static io.restassured.RestAssured.baseURI;
 			System.out.println("Admin sets Authorization to No Auth ");
 			baseURI = BaseURL;
 			NoAUTHFlag=true;
-		    String Email = "dfdds";
-		    String Passwd= "ddff";
-		    UserLoginRequest.bearerToken="";
-		    String Login_URL = routes.getString("UserLogin_Post_URL");
-			//response = UserLoginRequest.postLogin(Email, Passwd,Login_URL);
-			System.out.println("response inside -->> Admin sets Authorization to No Auth :" + response.getBody().asString());
-			System.out.println("UserLoginRequest.bearerToken : " + UserLoginRequest.bearerToken);
-			System.out.println("response.getStatusCode() : " + response.getStatusCode());
-			AdminId = null;
+		   AdminId = null;
 		}
 
 		@Then("Admin receives status {int} with Unauthorized message")

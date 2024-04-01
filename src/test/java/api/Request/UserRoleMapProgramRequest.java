@@ -17,17 +17,11 @@ public class UserRoleMapProgramRequest extends BaseClass
 		public static Response UserRoleMapProgramRequest(String Program_Get)
 		{	
 			RestAssured.baseURI=routes.getString("baseURL");
-			System.out.println("UserRoleMapProgramRequest called ");
-			System.out.println("Value of baseURI " + RestAssured.baseURI);
-			System.out.println("Value of BearerToken " + UserLoginRequest.bearerToken);
 			response = given()
 					.header("Authorization", "Bearer " + UserLoginRequest.bearerToken) 
 			        .when().get(Program_Get)
 			        .then().extract().response();
 			
-			System.out.println("Program Request Successful");
-			System.out.println("UserRoleMapProgramRequest --> Response  " + response.getBody());
-		
 			
 			if (response.statusCode()==200)
 			{
@@ -43,16 +37,10 @@ public class UserRoleMapProgramRequest extends BaseClass
 		public static Response UserRoleMapProgramRequestNOAuth(String Program_Get)
 		{	
 			RestAssured.baseURI=routes.getString("baseURL");
-			System.out.println("UserRoleMapProgramRequest called ");
-			System.out.println("Value of baseURI " + RestAssured.baseURI);
-			System.out.println("Value of BearerToken " + UserLoginRequest.bearerToken);
 			response = given()
 			        .when().get(Program_Get)
 			        .then().extract().response();
 			
-			System.out.println("Program Request Successful");
-			System.out.println("UserRoleMapProgramRequest --> Response  " + response.getBody());
-		
 			
 			if (response.statusCode()==200)
 			{

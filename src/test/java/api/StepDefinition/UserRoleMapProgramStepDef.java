@@ -19,6 +19,7 @@ import static io.restassured.RestAssured.baseURI;
 		 String InvalidLogin_URL;
 		 String BaseURL = routes.getString("baseURL");
 		 static String AdminId;
+		 static boolean NoAUTHFlag=false;
 		 
 
 		 @Given("Admin creates GET Request to retrieve all Admins assigned to programs\\/batches")
@@ -68,7 +69,11 @@ import static io.restassured.RestAssured.baseURI;
 		@When("Admin sends HTTPS Request")
 		public void Admin_sends_HTTPS_Request() 
 		{
-			response = UserRoleMapProgramRequest.UserRoleMapProgramRequest(User_Role_Map_URL);
+			if(!NoAUTHFlag) {
+				response = UserRoleMapProgramRequest.UserRoleMapProgramRequest(User_Role_Map_URL);
+			}
+			else 
+				response = UserRoleMapProgramRequest.UserRoleMapProgramRequestNOAuth(User_Role_Map_URL);
 			if(AdminId == null) {
 					AdminId=response.jsonPath().getString("userId[0]");
 			}
@@ -104,16 +109,21 @@ import static io.restassured.RestAssured.baseURI;
 		public void admin_sets_Authorization_to_No_Auth() {
 			System.out.println("Admin sets Authorization to No Auth ");
 			baseURI = BaseURL;
-		    String Email = "";
-		    String Passwd= "";
+			NoAUTHFlag=true;
+		    String Email = "dfdds";
+		    String Passwd= "ddff";
+		    UserLoginRequest.bearerToken="";
 		    String Login_URL = routes.getString("UserLogin_Post_URL");
-			response = UserLoginRequest.postLogin(Email, Passwd,Login_URL);
+			//response = UserLoginRequest.postLogin(Email, Passwd,Login_URL);
+			System.out.println("response inside -->> Admin sets Authorization to No Auth :" + response.getBody().asString());
+			System.out.println("UserLoginRequest.bearerToken : " + UserLoginRequest.bearerToken);
+			System.out.println("response.getStatusCode() : " + response.getStatusCode());
 			AdminId = null;
 		}
 
 		@Then("Admin receives status {int} with Unauthorized message")
 		public void admin_receives_status_with_Unauthorized_message(int StatusCode) {
-			//System.out.print("Status code is : " + StatusCode);
+			System.out.print("Expected Status code is : " + StatusCode + " Actual Status Code : " + response.getStatusCode());
 			assertEquals(StatusCode, response.getStatusCode());
 		}
 

@@ -29,7 +29,7 @@ import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInC
 
 
 
-public class BatchPostStepDef extends ExcelUtilis {
+public class BatchPostStepDef extends ExcelUtilis_1 {
 	
 	Response response;
 	String Token;

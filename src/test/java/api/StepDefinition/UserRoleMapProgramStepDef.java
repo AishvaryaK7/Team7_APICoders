@@ -58,13 +58,13 @@ import static io.restassured.RestAssured.baseURI;
 			 User_Role_Map_URL = User_Role_Map_URL +"/"+"-1";
 		 }
 
-		 @Then("Admin receives {int}")
-		 public void admin_receives(int StatusCode) {
-			 System.out.println("Status code is : " + StatusCode);
-			   // assertEquals(404,StatusCode);
-			 assertEquals(StatusCode, response.getStatusCode());
-			 assertEquals(response.header("Content-Type"), "application/json");	
-		 }
+			/*
+			 * @Then("Admin receives {int}") public void admin_receives(int StatusCode) {
+			 * System.out.println("Status code is : " + StatusCode); //
+			 * assertEquals(404,StatusCode); assertEquals(StatusCode,
+			 * response.getStatusCode()); assertEquals(response.header("Content-Type"),
+			 * "application/json"); }
+			 */
 		 
 		@When("Admin sends HTTPS Request")
 		public void Admin_sends_HTTPS_Request() 
@@ -81,7 +81,7 @@ import static io.restassured.RestAssured.baseURI;
 		    
 		}
 
-		@Then("Admin receives {int} OK")
+		@Then("Admin receives {int} Status Code")
 		public void Admin_receives_200_OK(int StatusCode)
 		{
 			//System.out.print("Status code is : " + StatusCode);

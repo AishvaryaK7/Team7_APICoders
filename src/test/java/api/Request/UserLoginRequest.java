@@ -25,26 +25,29 @@ public class UserLoginRequest extends BaseClass
 		payload.put("password", Passwd);
 		payload.put("userLoginEmailId", Email);
 		
-		System.out.println(payload);
+		//System.out.println(payload);
 			
 		responseToken = given().contentType("application/json").body(payload.toJSONString())
 		.when().post(Login_URL).then().extract().response();
 
-		System.out.println(responseToken.statusCode());
+		//System.out.println(responseToken.statusCode());
 		
 		if (responseToken.statusCode()==200)
 		{		
 			bearerToken = responseToken.jsonPath().getString("token");
-			System.out.println("Authorization successful");
-			System.out.println(bearerToken);
+			log.info("Authorization successful",bearerToken);
 		}	
 		else if(responseToken.statusCode()==401)
 		{ 
 			System.out.println("Authorization Failed"); 
+			log.info("Request failed");
+			log.error("401 Unauthorized");
 		}
 		else if(responseToken.statusCode()==400)
 		{
 			System.out.println("Authorization Failed - Bad Request");
+			log.info("Request failed");
+			log.error("400 Bad Request");
 		}
 			
 		return responseToken;

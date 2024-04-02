@@ -1,10 +1,12 @@
 package api.StepDefinition;
 
+import org.testng.Assert;
+
 import api.Request.UserLogoutRequest;
 import api.Utilities.BaseClass;
 import api.Utilities.TestContextSetUp;
 
-import static org.junit.Assert.assertEquals;
+
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -31,7 +33,7 @@ public class UserLogoutStepDef extends BaseClass
 	{
 		bearerToken = testContext.getBearerToken();
 	    setRequestHeader(bearerToken);
-	    log.info("Logger"+bearerToken);
+	    //log.info("Logger:" +bearerToken);
 	}
 
 	@When("Admin calls Get Https method with valid endpoint")
@@ -45,8 +47,9 @@ public class UserLogoutStepDef extends BaseClass
 	@Then("Admin receives {int} ok  and response with {string}")
 	public void admin_receives_ok_and_response_with(int StatusCode, String StatusMsg)
 	{
-		assertEquals(StatusCode,responseStatusCode);
+		Assert.assertEquals(responseStatusCode,StatusCode);
 		//status message
+		Assert.assertEquals(response.getBody().asString(),StatusMsg);
 	}
 
 	@When("Admin calls Get Https method withinvalid endpoint")
@@ -60,7 +63,7 @@ public class UserLogoutStepDef extends BaseClass
 	@Then("Admin receives {int} Not found")
 	public void admin_receives_Not_found(int StatusCode) 
 	{
-		assertEquals(StatusCode,responseStatusCode);
+		Assert.assertEquals(responseStatusCode,StatusCode);
 	}
 	
 	@Given("Admin creates request with no authorization")
@@ -71,10 +74,10 @@ public class UserLogoutStepDef extends BaseClass
 	}
 
 
-	@Then("Admin receives {int}  unauthorized")
-	public void admin_receives_unauthorized(int StatusCode) 
+	@Then("Admin receives {int} Unauthorized Logout")
+	public void admin_receives_Unauthorized_Logout(int StatusCode)
 	{
-		assertEquals(StatusCode,responseStatusCode);
+		Assert.assertEquals(responseStatusCode,StatusCode);
 	}
 
 }

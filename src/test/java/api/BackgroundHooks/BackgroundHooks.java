@@ -2,15 +2,26 @@ package api.BackgroundHooks;
 
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
+import io.restassured.RestAssured;
 import io.restassured.response.Response;
+
+import java.io.PrintWriter;
+import java.io.StringWriter;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+
 import api.Request.UserLoginRequest;
+import api.StepDefinition.UserControllerStepDef;
+import api.StepDefinition.UserLoginStepDef;
 import api.Utilities.BaseClass;
 import api.Utilities.TestContextSetUp;
 
 public class BackgroundHooks extends BaseClass
 {
 	
-	//public static boolean backgroundExecuted = false;
+	public static boolean backgroundExecuted = false;
 	 String Email;
 	 String passwd;
 	 String LoginURL;
@@ -23,7 +34,7 @@ public class BackgroundHooks extends BaseClass
 		    {
 		        
 		    	System.out.println("Scenario Name ==> " +scenario.getName());
-		    	System.out.println("Flag ==> " +backgroundExecuted);
+		    	//System.out.println("Flag ==> " +backgroundExecuted);
 		    	
 		    	// Initialize the TestContextSetUp object if it's null
 		        if (testContext == null)
@@ -45,4 +56,6 @@ public class BackgroundHooks extends BaseClass
 		        
 		        
 		    }
+
+
 }

@@ -4,7 +4,9 @@ import api.Request.UserLoginRequest;
 import api.Utilities.BaseClass;
 import api.Utilities.TestContextSetUp;
 
-import static org.junit.Assert.assertEquals;
+
+
+import org.testng.Assert;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -55,7 +57,7 @@ public class UserLoginStepDef extends BaseClass
 	@Then("Admin receives {int} created with auto generated token")
 	public void admin_receives_created_with_auto_generated_token(int StatusCode)
 	{
-	    assertEquals(StatusCode,responseStatusCode);
+		Assert.assertEquals(responseStatusCode,StatusCode);
 	}
 
 	@When("Admin calls Post Https method  with invalid endpoint")
@@ -66,10 +68,10 @@ public class UserLoginStepDef extends BaseClass
 		responseStatusCode=response.getStatusCode();
 	}
 
-	@Then("Admin receives {int} unauthorized")
-	public void admin_receives_unauthorized(int StatusCode) 
+	@Then("Admin receives {int} Not Found")
+	public void admin_receives_Not_Found(int StatusCode) 
 	{
-		assertEquals(StatusCode,responseStatusCode);
+		Assert.assertEquals(responseStatusCode,StatusCode);
 	}
 
 	@Given("Admin creates request with invalid credentials")
@@ -80,10 +82,10 @@ public class UserLoginStepDef extends BaseClass
 	    Passwd= login.getString("InValid_Password");
 	}
 
-	@Then("Admin receives {int} Bad request")
-	public void admin_receives_Bad_request(int StatusCode) 
+	@Then("Admin receives {int} Unauthorized Login")
+	public void admin_receives_Unauthorized_Login(int StatusCode) 
 	{
-		assertEquals(StatusCode,responseStatusCode);
+		Assert.assertEquals(responseStatusCode,StatusCode);
 	}
 
 

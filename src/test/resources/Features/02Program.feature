@@ -19,7 +19,7 @@ Feature: Program
     | 9 | 400 |
     | 10 | 400 |
     | 11 | 400 |
-    | 11 | 400 |
+    | 12 | 201 |
     
     @AddNewProgram3
     Scenario: Check if Admin able to create a program with invalid endpoint
@@ -203,5 +203,3 @@ Feature: Program
 		Given Admin creates PUT Request for the LMS with noauth 
     When Admin sends PUT Request with Name 
 		Then Admin receives 401 Status
-	
-		

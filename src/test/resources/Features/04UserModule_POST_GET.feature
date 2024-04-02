@@ -1,8 +1,7 @@
 Feature: User Controller module Requests
   I want to use this request to create  Admin user,Get Admin user,Update user and delete
-  Background:
-  Given Admin sets authorization to bearer token
-  
+ 
+  @Post&GetRequestsfor_UserController 
   Scenario Outline: Check if admin is able to create a new Admin with valid endpoint and request body with all possible scenarios
     ###POST Request having mandatory,mandatory&additional,invalid data###
     Given Admin creates POST request by reading from Excel
@@ -43,6 +42,7 @@ Feature: User Controller module Requests
     Given Admin creates and sends GET Request to retrieve all Admins with filters when  "<expectedStatusCode>" is 201
     Then Check if admin is able to retrieve all Admins with filters with valid endpoint when "<expectedStatusCode>" is 201                                                            
     
+        
     Examples:
     | rowNumber | expectedStatusCode |
     | 0 | 201 |
@@ -100,6 +100,7 @@ Feature: User Controller module Requests
     | 52 | 400 |
     
     
+    @Post&GetRequestsfor_NoAuth 
     Scenario: To Check No Authorization scenarios for all requests(Negative cases)
     
     #POST Request####
@@ -157,6 +158,7 @@ Feature: User Controller module Requests
     When Admin creates and sends GET Request to retrieve all Admins with filters No authorization
     Then Admin receives status 401 with Unauthorized message
     
+    @Post&GetRequestsfor_invalidEndpoint 
     Scenario: To Check with invalid End point and invalid valus in end point for all Requests
     
     ##Get Request  to retreive all the available roles with invalid End point ###
@@ -208,4 +210,9 @@ Feature: User Controller module Requests
     ##Get Request  to retrieve all Admins with filters with invalid endpoint ###
     When Admin creates and sends GET Request to retrieve all Admins with filters with invalid endpoint
     Then Admin receives status 404 with Not Found error message
+    
+    
         
+    
+    
+    

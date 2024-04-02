@@ -1,0 +1,1990 @@
+2024-04-01T19:50:44,616 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/putprogram/-1
+ Request Body =>{"programDescription":"updated description1","programName":"March24-APICoders-updated625","programStatus":"inactive"}
+ Response Body =>{
+    "message": "program with id-1not found",
+    "success": false
+}
+2024-04-01T19:50:45,755 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>GET
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/program/March24-APICoders-updated943
+ Request Body =>{"programDescription":"updated description1","programName":"March24-APICoders-updated427","programStatus":"inactive"}
+ Response Body =>{
+    "timestamp": "2024-04-01T23:50:45.392+00:00",
+    "status": 405,
+    "error": "Method Not Allowed",
+    "path": "/lms/program/March24-APICoders-updated943"
+}
+2024-04-01T19:50:46,109 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/program/March24-APICoders-updated943
+ Request Body =>{"programDescription":"updated description1","programName":"March24-APICoders-updated964","programStatus":"inactive"}
+ Response Body =>{
+    "message": "no list with such program name March24-APICoders-updated943",
+    "success": false
+}
+2024-04-01T19:50:46,337 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/program/March24-APICoders-updated943
+ Request Body =>{"programDescription":"updated description2","programName":"991","programStatus":"active"}
+ Response Body =>{
+    "message": "programName must begin with alphabet and can contain only alphanumeric characters",
+    "success": false
+}
+2024-04-01T19:50:46,671 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/program/March24-APICoders-updated943
+ Request Body =>{"programDescription":"updated description3","programName":"March24-APICoders-new351","programStatus":"active"}
+ Response Body =>{
+    "message": "no list with such program name March24-APICoders-updated943",
+    "success": false
+}
+2024-04-01T19:50:46,996 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/program/March24-APICoders-updated943
+ Request Body =>{"programDescription":"updated description3","programName":"March24-APICoders-updated47","programStatus":""}
+ Response Body =>{
+    "message": "Invalid Status: must be Active or Inactive",
+    "success": false
+}
+2024-04-01T19:50:47,306 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/program/March24-APICoders-updated943
+ Request Body =>{"programDescription":"updated description3","programName":"March24-APICoders-updated633","programStatus":"111"}
+ Response Body =>{
+    "message": "Invalid Status: must be Active or Inactive",
+    "success": false
+}
+2024-04-01T19:50:47,545 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/program/March24-APICoders-updated943
+ Request Body =>{"programDescription":"updated description3","programName":"March24-APICoders-updated831","programStatus":"$$$"}
+ Response Body =>{
+    "message": "Invalid Status: must be Active or Inactive",
+    "success": false
+}
+2024-04-01T19:50:47,778 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/program/March24-APICoders-updated943
+ Request Body =>{"programDescription":"1234","programName":"March24-APICoders-updated252","programStatus":"active"}
+ Response Body =>{
+    "message": "programDescription must begin with alphabet and can contain only alphanumeric characters",
+    "success": false
+}
+2024-04-01T19:50:48,028 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/program/March24-APICoders-updated943
+ Request Body =>{"programDescription":"","programName":"468","programStatus":""}
+ Response Body =>{
+    "message": "programDescription must begin with alphabet and can contain only alphanumeric characters",
+    "success": false
+}
+2024-04-01T19:50:48,771 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/program/March24-APICoders-updated943
+ Request Body =>{"programDescription":"test","programName":"March24-APICoders-2803","programStatus":"active"}
+ Response Body =>{
+    "timestamp": "2024-04-01T23:50:48.410+00:00",
+    "status": 401,
+    "error": "Unauthorized",
+    "path": "/lms/program/March24-APICoders-updated943"
+}
+2024-04-01T19:50:49,335 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/batches
+ Request Body =>{"batchName":"C# Lang11","batchNoOfClasses":"","batchDescription":"Morning Batch","batchStatus":"INACTIVE","programId":17482}
+ Response Body =>{
+    "message": " No of Classes is needed; It should be a positive number ",
+    "success": false
+}
+2024-04-01T19:50:49,581 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/batches
+ Request Body =>{"batchName":"Python11","batchNoOfClasses":"89","batchDescription":"Afternoon Batch","batchStatus":"QQ","programId":17482}
+ Response Body =>{
+    "message": "Invalid Status: must be Active or Inactive",
+    "success": false
+}
+2024-04-01T19:50:49,831 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/batches
+ Request Body =>{"batchName":"C lang11","batchNoOfClasses":"45","batchDescription":"Morning Batch","batchStatus":"123","programId":17482}
+ Response Body =>{
+    "message": "Invalid Status: must be Active or Inactive",
+    "success": false
+}
+2024-04-01T19:50:50,402 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/batches
+ Request Body =>{"batchName":"VB .net","batchNoOfClasses":"34","batchDescription":"","batchStatus":"ACTIVE","programId":17482}
+ Response Body =>{
+    "message": "batchDescription must begin with alphabet and can contain only alphanumeric characters",
+    "success": false
+}
+2024-04-01T19:50:50,745 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/batches
+ Request Body =>{"batchName":"Java11","batchNoOfClasses":"{{","batchDescription":"Evening Batch","batchStatus":"ACTIVE","programId":17482}
+ Response Body =>{
+    "message": "Cannot deserialize value of type `int` from String \"{{\": not a valid `int` value\n at [Source: (PushbackInputStream); line: 1, column: 42] (through reference chain: com.numpyninja.lms.dto.BatchDTO[\"batchNoOfClasses\"])",
+    "success": false
+}
+2024-04-01T19:50:51,380 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/batches
+ Request Body =>{"batchName":"VB sci","batchNoOfClasses":"10","batchDescription":"99","batchStatus":"ACTIVE","programId":17482}
+ Response Body =>{
+    "message": "batchDescription must begin with alphabet and can contain only alphanumeric characters",
+    "success": false
+}
+2024-04-01T19:50:51,691 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/batches
+ Request Body =>{"batchName":"Java11c","batchNoOfClasses":"$","batchDescription":"#","batchStatus":"ACTIVE","programId":17482}
+ Response Body =>{
+    "message": "Cannot deserialize value of type `int` from String \"$\": not a valid `int` value\n at [Source: (PushbackInputStream); line: 1, column: 43] (through reference chain: com.numpyninja.lms.dto.BatchDTO[\"batchNoOfClasses\"])",
+    "success": false
+}
+2024-04-01T19:50:51,989 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/batches
+ Request Body =>{"batchName":"","batchNoOfClasses":"","batchDescription":"","batchStatus":"","programId":17482}
+ Response Body =>{
+    "message": " No of Classes is needed; It should be a positive number ",
+    "success": false
+}
+2024-04-01T19:50:54,169 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/batches/9785
+ Request Body =>{"batchName":"Python","batchNoOfClasses":"","programName":"Java advance","batchDescription":"afternoon batch","batchStatus":"Inactive","programId":17482}
+ Response Body =>{
+    "message": " No of Classes is needed; It should be a positive number ",
+    "success": false
+}
+2024-04-01T19:50:54,171 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/batches/9785
+ Request Body =>{"batchName":"Python","batchNoOfClasses":"","programName":"Java advance","batchDescription":"afternoon batch","batchStatus":"Inactive","programId":17482}
+ Response Body =>{
+    "message": " No of Classes is needed; It should be a positive number ",
+    "success": false
+}
+2024-04-01T19:50:54,415 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/batches/9785
+ Request Body =>{"batchName":"","batchNoOfClasses":"56","programName":"java basic","batchDescription":"Evening Batch","batchStatus":"Qq","programId":17482}
+ Response Body =>{
+    "message": "Invalid Status: must be Active or Inactive",
+    "success": false
+}
+2024-04-01T19:50:54,418 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/batches/9785
+ Request Body =>{"batchName":"","batchNoOfClasses":"56","programName":"java basic","batchDescription":"Evening Batch","batchStatus":"Qq","programId":17482}
+ Response Body =>{
+    "message": "Invalid Status: must be Active or Inactive",
+    "success": false
+}
+2024-04-01T19:50:54,658 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/batches/9785
+ Request Body =>{"batchName":"C# Lan","batchNoOfClasses":"","programName":"java basic","batchDescription":"morning batch","batchStatus":"123","programId":17482}
+ Response Body =>{
+    "message": "Invalid Status: must be Active or Inactive",
+    "success": false
+}
+2024-04-01T19:50:54,660 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/batches/9785
+ Request Body =>{"batchName":"C# Lan","batchNoOfClasses":"","programName":"java basic","batchDescription":"morning batch","batchStatus":"123","programId":17482}
+ Response Body =>{
+    "message": "Invalid Status: must be Active or Inactive",
+    "success": false
+}
+2024-04-01T19:50:54,908 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/batches/9785
+ Request Body =>{"batchName":"java","batchNoOfClasses":"20","programName":"Java basic","batchDescription":"afternoon batch","batchStatus":"","programId":17482}
+ Response Body =>{
+    "message": "Invalid Status: must be Active or Inactive",
+    "success": false
+}
+2024-04-01T19:50:54,911 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/batches/9785
+ Request Body =>{"batchName":"java","batchNoOfClasses":"20","programName":"Java basic","batchDescription":"afternoon batch","batchStatus":"","programId":17482}
+ Response Body =>{
+    "message": "Invalid Status: must be Active or Inactive",
+    "success": false
+}
+2024-04-01T19:50:55,176 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/batches/9785
+ Request Body =>{"batchName":"javaadvance","batchNoOfClasses":"90","programName":"","batchDescription":"Evening Batch","batchStatus":"Active","programId":17482}
+ Response Body =>{
+    "message": "programName must begin with alphabet and can contain only alphanumeric characters",
+    "success": false
+}
+2024-04-01T19:50:55,178 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/batches/9785
+ Request Body =>{"batchName":"javaadvance","batchNoOfClasses":"90","programName":"","batchDescription":"Evening Batch","batchStatus":"Active","programId":17482}
+ Response Body =>{
+    "message": "programName must begin with alphabet and can contain only alphanumeric characters",
+    "success": false
+}
+2024-04-01T19:50:55,444 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/batches/9785
+ Request Body =>{"batchName":"","batchNoOfClasses":"","programName":"","batchDescription":"Evening Batch","batchStatus":"","programId":17482}
+ Response Body =>{
+    "message": "Batch status is needed",
+    "success": false
+}
+2024-04-01T19:50:55,447 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/batches/9785
+ Request Body =>{"batchName":"","batchNoOfClasses":"","programName":"","batchDescription":"Evening Batch","batchStatus":"","programId":17482}
+ Response Body =>{
+    "message": "Batch status is needed",
+    "success": false
+}
+2024-04-01T19:50:55,699 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/batches/9785
+ Request Body =>{"batchName":"#####","batchNoOfClasses":"23","programName":"Java basic","batchDescription":"afternoon batch","batchStatus":"Inactive","programId":17482}
+ Response Body =>{
+    "message": "batchName must begin with alphabet and can contain only alphanumeric characters",
+    "success": false
+}
+2024-04-01T19:50:55,701 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/batches/9785
+ Request Body =>{"batchName":"#####","batchNoOfClasses":"23","programName":"Java basic","batchDescription":"afternoon batch","batchStatus":"Inactive","programId":17482}
+ Response Body =>{
+    "message": "batchName must begin with alphabet and can contain only alphanumeric characters",
+    "success": false
+}
+2024-04-01T19:50:55,934 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/batches/9785
+ Request Body =>{"batchName":"C lang","batchNoOfClasses":"#####","programName":"Java advance","batchDescription":"Evening Batch","batchStatus":"Active","programId":17482}
+ Response Body =>{
+    "message": "Cannot deserialize value of type `int` from String \"#####\": not a valid `int` value\n at [Source: (PushbackInputStream); line: 1, column: 42] (through reference chain: com.numpyninja.lms.dto.BatchDTO[\"batchNoOfClasses\"])",
+    "success": false
+}
+2024-04-01T19:50:55,936 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/batches/9785
+ Request Body =>{"batchName":"C lang","batchNoOfClasses":"#####","programName":"Java advance","batchDescription":"Evening Batch","batchStatus":"Active","programId":17482}
+ Response Body =>{
+    "message": "Cannot deserialize value of type `int` from String \"#####\": not a valid `int` value\n at [Source: (PushbackInputStream); line: 1, column: 42] (through reference chain: com.numpyninja.lms.dto.BatchDTO[\"batchNoOfClasses\"])",
+    "success": false
+}
+2024-04-01T19:50:56,187 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/batches/9785
+ Request Body =>{"batchName":"C lang","batchNoOfClasses":"56","programName":"Java advance","batchDescription":"Evening Batch","batchStatus":"###","programId":17482}
+ Response Body =>{
+    "message": "Invalid Status: must be Active or Inactive",
+    "success": false
+}
+2024-04-01T19:50:56,189 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/batches/9785
+ Request Body =>{"batchName":"C lang","batchNoOfClasses":"56","programName":"Java advance","batchDescription":"Evening Batch","batchStatus":"###","programId":17482}
+ Response Body =>{
+    "message": "Invalid Status: must be Active or Inactive",
+    "success": false
+}
+2024-04-01T19:50:56,427 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/batches/9785
+ Request Body =>{"batchName":"C lang","batchNoOfClasses":"56","programName":"###","batchDescription":"Evening Batch","batchStatus":"inactive ","programId":17482}
+ Response Body =>{
+    "message": "Invalid Status: must be Active or Inactive",
+    "success": false
+}
+2024-04-01T19:50:56,429 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/batches/9785
+ Request Body =>{"batchName":"C lang","batchNoOfClasses":"56","programName":"###","batchDescription":"Evening Batch","batchStatus":"inactive ","programId":17482}
+ Response Body =>{
+    "message": "Invalid Status: must be Active or Inactive",
+    "success": false
+}
+2024-04-01T19:50:56,679 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/batches/10098677
+ Request Body =>{"batchName":"C# Lang11","batchNoOfClasses":"45","programName":"JAVA","batchDescription":"afternoon batch","batchStatus":"Active","programId":17482}
+ Response Body =>{
+    "message": "Batch not found with Id : 10098677 ",
+    "success": false
+}
+2024-04-01T19:50:56,919 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/batches/foo/9785
+ Request Body =>{"batchName":"C# Lang11","batchNoOfClasses":"45","programName":"JAVA","batchDescription":"afternoon batch","batchStatus":"Active","programId":17482}
+ Response Body =>{
+    "timestamp": "2024-04-01T23:50:56.556+00:00",
+    "status": 404,
+    "error": "Not Found",
+    "path": "/lms/batches/foo/9785"
+}
+2024-04-01T19:50:59,974 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/batches/9785
+ Request Body =>{"batchName":"JavaMp_apicoders","batchNoOfClasses":20,"programName":"SMPO","batchDescription":"MorningBatch","batchStatus":"ACTIVE","programId":17482}
+ Response Body =>{
+    "timestamp": "2024-04-01T23:50:59.612+00:00",
+    "status": 401,
+    "error": "Unauthorized",
+    "path": "/lms/batches/9785"
+}
+2024-04-01T19:51:06,971 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>GET
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/programs/17482
+ Request Body =>null
+ Response Body =>{
+    "message": "No Users found for the given program ID: 17482",
+    "success": false
+}
+2024-04-01T19:51:13,335 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>GET
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/programs/17482
+ Request Body =>null
+ Response Body =>{
+    "message": "No Users found for the given program ID: 17482",
+    "success": false
+}
+2024-04-01T19:51:13,578 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"H4-EAD","userEduPg":"","userPhoneNumber":"6785440576","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"Active","roleId":"R01"}],"userComments":"Admin_allfeilds","userTimeZone":"EST","userLogin":{"userLoginEmail":"Vv7PFk_sree.malineni.48@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"www.linkedin.com","userLastName":"Malineni","userMiddleName":"NA","userEduUg":"MS"}
+ Response Body =>{
+    "message": "userEduPgmust begin with alphabet and can contain only alphanumeric characters",
+    "success": false
+}
+2024-04-01T19:51:13,822 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"H4-EAD","userEduPg":"BE","userPhoneNumber":"6785495082","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"Active","roleId":"R01"}],"userComments":"Admin_allfeilds","userTimeZone":"EST","userLogin":{"userLoginEmail":"fM9u0C_sree.malineni.48@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"www.linkedin.com","userLastName":"Malineni","userMiddleName":"NA","userEduUg":""}
+ Response Body =>{
+    "message": "userEduUg must begin with alphabet and can contain only alphanumeric characters",
+    "success": false
+}
+2024-04-01T19:51:14,060 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"H4-EAD","userEduPg":"BE","userPhoneNumber":"6785455413","userLocation":"USA","userFirstName":"","userRoleMaps":[{"userRoleStatus":"Active","roleId":"R01"}],"userComments":"Admin_allfeilds","userTimeZone":"EST","userLogin":{"userLoginEmail":"8fr8aW_sree.malineni.48@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"www.linkedin.com","userLastName":"Malineni","userMiddleName":"NA","userEduUg":"MS"}
+ Response Body =>{
+    "message": "userFirstName must contain two or more alphabets only",
+    "success": false
+}
+2024-04-01T19:51:14,302 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"H4-EAD","userEduPg":"BE","userPhoneNumber":"6785467422","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"Active","roleId":"R01"}],"userComments":"Admin_allfeilds","userTimeZone":"EST","userLogin":{"userLoginEmail":"7TGRZH_sree.malineni.48@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"www.linkedin.com","userLastName":"","userMiddleName":"NA","userEduUg":"MS"}
+ Response Body =>{
+    "message": "userLastName must contain one or more alphabets only",
+    "success": false
+}
+2024-04-01T19:51:14,554 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"H4-EAD","userEduPg":"BE","userPhoneNumber":"6785461189","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"Active","roleId":"R01"}],"userComments":"Admin_allfeilds","userTimeZone":"EST","userLogin":{"userLoginEmail":"lkfxCu_sree.malineni.48@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"","userLastName":"Malineni","userMiddleName":"NA","userEduUg":"MS"}
+ Response Body =>{
+    "message": "userLinkedinUrlmust contain www.linkedin.com",
+    "success": false
+}
+2024-04-01T19:51:16,568 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"H4-EAD","userEduPg":"BE","userPhoneNumber":"6785428986","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"Active","roleId":"R01"}],"userComments":"Admin_allfeilds","userTimeZone":"EST","userLogin":{"userLoginEmail":"mcYTXD_sree.malineni.48@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"www.linkedin.com","userLastName":"Malineni","userMiddleName":"","userEduUg":"MS"}
+ Response Body =>{
+    "message": "userMiddleName must contain one or more alphabets only",
+    "success": false
+}
+2024-04-01T19:51:16,834 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"H4-EAD","userEduPg":"BE","userPhoneNumber":"48976","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"Active","roleId":"R01"}],"userComments":"Admin_allfeilds","userTimeZone":"EST","userLogin":{"userLoginEmail":"63uS2w_sree.malineni.48@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"www.linkedin.com","userLastName":"Malineni","userMiddleName":"NA","userEduUg":"MS"}
+ Response Body =>{
+    "message": "Enter phone no in this format (CountryCode)(PhoneNo) +91 1234567890",
+    "success": false
+}
+2024-04-01T19:51:17,110 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"H4-EAD","userEduPg":"BE","userPhoneNumber":"6785415338","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"Active","roleId":""}],"userComments":"Admin_allfeilds","userTimeZone":"EST","userLogin":{"userLoginEmail":"J7XDxA_sree.malineni.48@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"www.linkedin.com","userLastName":"Malineni","userMiddleName":"NA","userEduUg":"MS"}
+ Response Body =>{
+    "message": "Role Id is mandatory",
+    "success": false
+}
+2024-04-01T19:51:17,355 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"H4-EAD","userEduPg":"BE","userPhoneNumber":"6785445012","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"","roleId":"R01"}],"userComments":"Admin_allfeilds","userTimeZone":"EST","userLogin":{"userLoginEmail":"i8ws4w_sree.malineni.48@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"www.linkedin.com","userLastName":"Malineni","userMiddleName":"NA","userEduUg":"MS"}
+ Response Body =>{
+    "message": "Invalid Status: must be Active or Inactive",
+    "success": false
+}
+2024-04-01T19:51:17,618 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"H4-EAD","userEduPg":"BE","userPhoneNumber":"6785426298","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"Active","roleId":"R01"}],"userComments":"Admin_allfeilds","userTimeZone":"","userLogin":{"userLoginEmail":"QMYLOl_sree.malineni.48@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"www.linkedin.com","userLastName":"Malineni","userMiddleName":"NA","userEduUg":"MS"}
+ Response Body =>{
+    "message": "Failed to create user, as 'TimeZone' is invalid !! ",
+    "success": false
+}
+2024-04-01T19:51:17,871 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"","userEduPg":"BE","userPhoneNumber":"6785432866","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"Active","roleId":"R01"}],"userComments":"Admin_allfeilds","userTimeZone":"EST","userLogin":{"userLoginEmail":"JuS9Nj_sree.malineni.48@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"www.linkedin.com","userLastName":"Malineni","userMiddleName":"NA","userEduUg":"MS"}
+ Response Body =>{
+    "message": "Failed to create user, as 'Visa Status' is invalid !! ",
+    "success": false
+}
+2024-04-01T19:51:18,131 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"H4-EAD","userEduPg":"$$","userPhoneNumber":"6785452962","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"Active","roleId":"R01"}],"userComments":"Admin_allfeilds","userTimeZone":"EST","userLogin":{"userLoginEmail":"ben5LD_sree.malineni.48@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"www.linkedin.com","userLastName":"Malineni","userMiddleName":"NA","userEduUg":"MS"}
+ Response Body =>{
+    "message": "userEduPgmust begin with alphabet and can contain only alphanumeric characters",
+    "success": false
+}
+2024-04-01T19:51:18,378 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"H4-EAD","userEduPg":"BE","userPhoneNumber":"6785484026","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"Active","roleId":"R01"}],"userComments":"Admin_allfeilds","userTimeZone":"EST","userLogin":{"userLoginEmail":"FQrDYP_sree.malineni.48@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"www.linkedin.com","userLastName":"Malineni","userMiddleName":"NA","userEduUg":"$$"}
+ Response Body =>{
+    "message": "userEduUg must begin with alphabet and can contain only alphanumeric characters",
+    "success": false
+}
+2024-04-01T19:51:18,622 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"H4-EAD","userEduPg":"BE","userPhoneNumber":"6785421866","userLocation":"USA","userFirstName":"$$","userRoleMaps":[{"userRoleStatus":"Active","roleId":"R01"}],"userComments":"Admin_allfeilds","userTimeZone":"EST","userLogin":{"userLoginEmail":"HqTqGW_sree.malineni.48@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"www.linkedin.com","userLastName":"Malineni","userMiddleName":"NA","userEduUg":"MS"}
+ Response Body =>{
+    "message": "userFirstName must contain two or more alphabets only",
+    "success": false
+}
+2024-04-01T19:51:18,854 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"H4-EAD","userEduPg":"BE","userPhoneNumber":"6785498053","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"Active","roleId":"R01"}],"userComments":"Admin_allfeilds","userTimeZone":"EST","userLogin":{"userLoginEmail":"GlcfaK_sree.malineni.48@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"www.linkedin.com","userLastName":"$$","userMiddleName":"NA","userEduUg":"MS"}
+ Response Body =>{
+    "message": "userLastName must contain one or more alphabets only",
+    "success": false
+}
+2024-04-01T19:51:19,092 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"H4-EAD","userEduPg":"BE","userPhoneNumber":"6785421864","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"Active","roleId":"R01"}],"userComments":"Admin_allfeilds","userTimeZone":"EST","userLogin":{"userLoginEmail":"tkfRGH_sree.malineni.48@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"$$","userLastName":"Malineni","userMiddleName":"NA","userEduUg":"MS"}
+ Response Body =>{
+    "message": "userLinkedinUrlmust contain www.linkedin.com",
+    "success": false
+}
+2024-04-01T19:51:19,895 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"H4-EAD","userEduPg":"BE","userPhoneNumber":"6785499715","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"Active","roleId":"R01"}],"userComments":"Admin_allfeilds","userTimeZone":"EST","userLogin":{"userLoginEmail":"RnoD5k_sree.malineni.48@gmail.com","password":"test123","loginStatus":"$$"},"userLinkedinUrl":"www.linkedin.com","userLastName":"Malineni","userMiddleName":"$$","userEduUg":"MS"}
+ Response Body =>{
+    "message": "userMiddleName must contain one or more alphabets only",
+    "success": false
+}
+2024-04-01T19:51:20,116 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"H4-EAD","userEduPg":"BE","userPhoneNumber":"$$31112","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"Active","roleId":"R01"}],"userComments":"Admin_allfeilds","userTimeZone":"EST","userLogin":{"userLoginEmail":"WHjdTs_sree.malineni.48@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"www.linkedin.com","userLastName":"Malineni","userMiddleName":"NA","userEduUg":"MS"}
+ Response Body =>{
+    "message": "Cannot deserialize value of type `long` from String \"$$31112\": not a valid `long` value\n at [Source: (PushbackInputStream); line: 1, column: 63] (through reference chain: com.numpyninja.lms.dto.UserLoginRoleDTO[\"userPhoneNumber\"])",
+    "success": false
+}
+2024-04-01T19:51:20,390 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"H4-EAD","userEduPg":"BE","userPhoneNumber":"164773","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"Active","roleId":"R01"}],"userComments":"Admin_allfeilds","userTimeZone":"EST","userLogin":{"userLoginEmail":"vIySHJ_sree.malineni.48@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"www.linkedin.com","userLastName":"Malineni","userMiddleName":"NA","userEduUg":"MS"}
+ Response Body =>{
+    "message": "Enter phone no in this format (CountryCode)(PhoneNo) +91 1234567890",
+    "success": false
+}
+2024-04-01T19:51:20,652 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"H4-EAD","userEduPg":"BE","userPhoneNumber":"6785483588","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"Active","roleId":"$$"}],"userComments":"Admin_allfeilds","userTimeZone":"EST","userLogin":{"userLoginEmail":"a6UmKX_sree.malineni.48@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"www.linkedin.com","userLastName":"Malineni","userMiddleName":"NA","userEduUg":"MS"}
+ Response Body =>{
+    "message": "Failed to create user, as 'roleId' is invalid !! ",
+    "success": false
+}
+2024-04-01T19:51:20,944 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"H4-EAD","userEduPg":"BE","userPhoneNumber":"6785420820","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"Active","roleId":"123"}],"userComments":"Admin_allfeilds","userTimeZone":"EST","userLogin":{"userLoginEmail":"IX3XsT_sree.malineni.48@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"www.linkedin.com","userLastName":"Malineni","userMiddleName":"NA","userEduUg":"MS"}
+ Response Body =>{
+    "message": "Failed to create user, as 'roleId' is invalid !! ",
+    "success": false
+}
+2024-04-01T19:51:21,177 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"H4-EAD","userEduPg":"BE","userPhoneNumber":"6785413715","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"$$","roleId":"R01"}],"userComments":"Admin_allfeilds","userTimeZone":"EST","userLogin":{"userLoginEmail":"TVfTUa_sree.malineni.48@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"www.linkedin.com","userLastName":"Malineni","userMiddleName":"NA","userEduUg":"MS"}
+ Response Body =>{
+    "message": "Invalid Status: must be Active or Inactive",
+    "success": false
+}
+2024-04-01T19:51:21,397 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"H4-EAD","userEduPg":"BE","userPhoneNumber":"6785426575","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"activate","roleId":"R01"}],"userComments":"Admin_allfeilds","userTimeZone":"EST","userLogin":{"userLoginEmail":"UDd4go_sree.malineni.48@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"www.linkedin.com","userLastName":"Malineni","userMiddleName":"NA","userEduUg":"MS"}
+ Response Body =>{
+    "message": "Invalid Status: must be Active or Inactive",
+    "success": false
+}
+2024-04-01T19:51:21,621 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"H4-EAD","userEduPg":"BE","userPhoneNumber":"6785438229","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"Active","roleId":"R01"}],"userComments":"Admin_allfeilds","userTimeZone":"$$","userLogin":{"userLoginEmail":"HPMrgt_sree.malineni.48@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"www.linkedin.com","userLastName":"Malineni","userMiddleName":"NA","userEduUg":"MS"}
+ Response Body =>{
+    "message": "Failed to create user, as 'TimeZone' is invalid !! ",
+    "success": false
+}
+2024-04-01T19:51:21,874 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"H4-EAD","userEduPg":"BE","userPhoneNumber":"6785479513","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"Active","roleId":"R01"}],"userComments":"Admin_allfeilds","userTimeZone":"ABC","userLogin":{"userLoginEmail":"0lOEib_sree.malineni.48@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"www.linkedin.com","userLastName":"Malineni","userMiddleName":"NA","userEduUg":"MS"}
+ Response Body =>{
+    "message": "Failed to create user, as 'TimeZone' is invalid !! ",
+    "success": false
+}
+2024-04-01T19:51:22,106 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"$$","userEduPg":"BE","userPhoneNumber":"6785421320","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"Active","roleId":"R01"}],"userComments":"Admin_allfeilds","userTimeZone":"EST","userLogin":{"userLoginEmail":"4N1boi_sree.malineni.48@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"www.linkedin.com","userLastName":"Malineni","userMiddleName":"NA","userEduUg":"MS"}
+ Response Body =>{
+    "message": "Failed to create user, as 'Visa Status' is invalid !! ",
+    "success": false
+}
+2024-04-01T19:51:22,360 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"ABC","userEduPg":"BE","userPhoneNumber":"6785490648","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"Active","roleId":"R01"}],"userComments":"Admin_allfeilds","userTimeZone":"EST","userLogin":{"userLoginEmail":"ffF0Lf_sree.malineni.48@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"www.linkedin.com","userLastName":"Malineni","userMiddleName":"NA","userEduUg":"MS"}
+ Response Body =>{
+    "message": "Failed to create user, as 'Visa Status' is invalid !! ",
+    "success": false
+}
+2024-04-01T19:51:22,594 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"H4-EAD","userEduPg":"BE","userPhoneNumber":"6785489094","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"Active","roleId":"R01"}],"userComments":"$$","userTimeZone":"EST","userLogin":{"userLoginEmail":"C75xvz_sree.malineni.48@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"www.linkedin.com","userLastName":"Malineni","userMiddleName":"NA","userEduUg":"MS"}
+ Response Body =>{
+    "message": "userComments must begin with alphabet and can contain only alphanumeric characters",
+    "success": false
+}
+2024-04-01T19:51:22,828 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"H4-EAD","userEduPg":"BE","userPhoneNumber":"6785496884","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"Active","roleId":"R01"}],"userComments":"Admin_allfeilds","userTimeZone":"EST","userLogin":{"userLoginEmail":"jdPjjP_sree.malineni.48@gmail.com","password":"$$","loginStatus":"Active"},"userLinkedinUrl":"www.linkedin.com","userLastName":"Malineni","userMiddleName":"NA","userEduUg":"123"}
+ Response Body =>{
+    "message": "userEduUg must begin with alphabet and can contain only alphanumeric characters",
+    "success": false
+}
+2024-04-01T19:51:23,068 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"H4-EAD","userEduPg":"BE","userPhoneNumber":"6785487730","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"Active","roleId":"R01"}],"userComments":"Admin_allfeilds","userTimeZone":"EST","userLogin":{"userLoginEmail":"yJ0dbm_sree.malineni.48@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"www.linkedin.com","userLastName":"Malineni","userMiddleName":"123","userEduUg":"MS"}
+ Response Body =>{
+    "message": "userMiddleName must contain one or more alphabets only",
+    "success": false
+}
+2024-04-01T19:51:23,307 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"H4-EAD","userEduPg":"BE","userPhoneNumber":"ABC10099","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"Active","roleId":"R01"}],"userComments":"Admin_allfeilds","userTimeZone":"EST","userLogin":{"userLoginEmail":"2sGv4r_sree.malineni.48@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"www.linkedin.com","userLastName":"Malineni","userMiddleName":"NA","userEduUg":"MS"}
+ Response Body =>{
+    "message": "Cannot deserialize value of type `long` from String \"ABC10099\": not a valid `long` value\n at [Source: (PushbackInputStream); line: 1, column: 63] (through reference chain: com.numpyninja.lms.dto.UserLoginRoleDTO[\"userPhoneNumber\"])",
+    "success": false
+}
+2024-04-01T19:51:23,523 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"H4-EAD","userEduPg":"BE","userPhoneNumber":"6785453623","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"Active","roleId":"R01"}],"userComments":"Admin_allfeilds","userTimeZone":"EST","userLogin":{"userLoginEmail":"yNmk9R_sree.malineni.48@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"WWW.google.com/linkedin","userLastName":"Malineni","userMiddleName":"NA","userEduUg":"MS"}
+ Response Body =>{
+    "message": "userLinkedinUrlmust contain www.linkedin.com",
+    "success": false
+}
+2024-04-01T19:51:30,000 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>GET
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/programs/17482
+ Request Body =>null
+ Response Body =>{
+    "message": "No Users found for the given program ID: 17482",
+    "success": false
+}
+2024-04-01T19:51:36,457 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>GET
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/programs/17482
+ Request Body =>null
+ Response Body =>{
+    "message": "No Users found for the given program ID: 17482",
+    "success": false
+}
+2024-04-01T19:51:42,707 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>GET
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/programs/17482
+ Request Body =>null
+ Response Body =>{
+    "message": "No Users found for the given program ID: 17482",
+    "success": false
+}
+2024-04-01T19:51:49,041 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>GET
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/programs/17482
+ Request Body =>null
+ Response Body =>{
+    "message": "No Users found for the given program ID: 17482",
+    "success": false
+}
+2024-04-01T19:51:55,288 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>GET
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/programs/17482
+ Request Body =>null
+ Response Body =>{
+    "message": "No Users found for the given program ID: 17482",
+    "success": false
+}
+2024-04-01T19:52:02,156 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>GET
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/programs/17482
+ Request Body =>null
+ Response Body =>{
+    "message": "No Users found for the given program ID: 17482",
+    "success": false
+}
+2024-04-01T19:52:08,449 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>GET
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/programs/17482
+ Request Body =>null
+ Response Body =>{
+    "message": "No Users found for the given program ID: 17482",
+    "success": false
+}
+2024-04-01T19:52:14,747 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>GET
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/programs/17482
+ Request Body =>null
+ Response Body =>{
+    "message": "No Users found for the given program ID: 17482",
+    "success": false
+}
+2024-04-01T19:52:21,097 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>GET
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/programs/17482
+ Request Body =>null
+ Response Body =>{
+    "message": "No Users found for the given program ID: 17482",
+    "success": false
+}
+2024-04-01T19:52:21,338 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"Canada-Citizen","userEduPg":"BE","userPhoneNumber":"8693019143","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"activate","roleId":"R01"}],"userComments":"LMS_Admin","userTimeZone":"IST","userLogin":{"userLoginEmail":"5bBgBT_sree.malineni.53@gmail.com","password":"test123","loginStatus":"activate"},"userLinkedinUrl":"www.linkedin.com","userLastName":"Malineni","userMiddleName":"Team","userEduUg":"MS"}
+ Response Body =>{
+    "message": "Invalid Status: must be Active or Inactive",
+    "success": false
+}
+2024-04-01T19:52:21,570 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"Canada-Citizen","userEduPg":"123","userPhoneNumber":"8693099843","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"Active","roleId":"R01"}],"userComments":"LMS_Admin","userTimeZone":"IST","userLogin":{"userLoginEmail":"F4co8r_sree.malineni.53@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"www.linkedin.com","userLastName":"Malineni","userMiddleName":"Team","userEduUg":"MS"}
+ Response Body =>{
+    "message": "userEduPgmust begin with alphabet and can contain only alphanumeric characters",
+    "success": false
+}
+2024-04-01T19:52:21,816 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"Canada-Citizen","userEduPg":"BE","userPhoneNumber":"8693088556","userLocation":"USA","userFirstName":"123","userRoleMaps":[{"userRoleStatus":"Active","roleId":"R01"}],"userComments":"LMS_Admin","userTimeZone":"IST","userLogin":{"userLoginEmail":"5D63uF_sree.malineni.53@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"www.linkedin.com","userLastName":"Malineni","userMiddleName":"Team","userEduUg":"MS"}
+ Response Body =>{
+    "message": "userFirstName must contain two or more alphabets only",
+    "success": false
+}
+2024-04-01T19:52:22,063 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"Canada-Citizen","userEduPg":"BE","userPhoneNumber":"8693039486","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"Active","roleId":"R01"}],"userComments":"LMS_Admin","userTimeZone":"IST","userLogin":{"userLoginEmail":"Ega5kv_sree.malineni.53@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"www.linkedin.com","userLastName":"123","userMiddleName":"Team","userEduUg":"MS"}
+ Response Body =>{
+    "message": "userLastName must contain one or more alphabets only",
+    "success": false
+}
+2024-04-01T19:52:22,282 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"Canada-Citizen","userEduPg":"BE","userPhoneNumber":"+91 5673488385","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"Active","roleId":"R01"}],"userComments":"LMS_Admin","userTimeZone":"IST","userLogin":{"userLoginEmail":"OpGCjs_sree.malineni.53@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"www.linkedin.com","userLastName":"malineni","userMiddleName":"Team","userEduUg":"MS"}
+ Response Body =>{
+    "message": "Cannot deserialize value of type `long` from String \"+91 5673488385\": not a valid `long` value\n at [Source: (PushbackInputStream); line: 1, column: 71] (through reference chain: com.numpyninja.lms.dto.UserLoginRoleDTO[\"userPhoneNumber\"])",
+    "success": false
+}
+2024-04-01T19:52:22,504 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"Canada-Citizen","userEduPg":"BE","userPhoneNumber":"567345789021284","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"Active","roleId":"R01"}],"userComments":"LMS_Admin","userTimeZone":"IST","userLogin":{"userLoginEmail":"HFz5xa_sree.malineni.53@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"www.linkedin.com","userLastName":"malineni","userMiddleName":"Team","userEduUg":"MS"}
+ Response Body =>{
+    "message": "Enter phone no in this format (CountryCode)(PhoneNo) +91 1234567890",
+    "success": false
+}
+2024-04-01T19:52:22,707 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"H1","userEduPg":"BA","userPhoneNumber":"8969798016","userLocation":"USA","userFirstName":"SRee","userRoleMaps":[{"userRoleStatus":"active","roleId":"R01"}],"userComments":"test","userTimeZone":"EST","userLogin":{"userLoginEmail":"rOz29e_test.sree@gmail.com","password":"test123","loginStatus":"active"},"userLinkedinUrl":"www.linkedin.com","userLastName":"vidya","userMiddleName":"NA","userEduUg":"MTECH"}
+ Response Body =>{
+    "timestamp": "2024-04-01T23:52:22.339+00:00",
+    "status": 401,
+    "error": "Unauthorized",
+    "path": "/lms/users/roleStatus"
+}
+2024-04-01T19:52:22,884 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>GET
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/roles
+ Request Body =>null
+ Response Body =>{
+    "timestamp": "2024-04-01T23:52:22.523+00:00",
+    "status": 401,
+    "error": "Unauthorized",
+    "path": "/lms/roles"
+}
+2024-04-01T19:52:23,075 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>GET
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users
+ Request Body =>null
+ Response Body =>{
+    "timestamp": "2024-04-01T23:52:22.715+00:00",
+    "status": 401,
+    "error": "Unauthorized",
+    "path": "/lms/users"
+}
+2024-04-01T19:52:23,254 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>GET
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/U1575
+ Request Body =>null
+ Response Body =>{
+    "timestamp": "2024-04-01T23:52:22.895+00:00",
+    "status": 401,
+    "error": "Unauthorized",
+    "path": "/lms/users/U1575"
+}
+2024-04-01T19:52:23,437 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>GET
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/activeUsers
+ Request Body =>null
+ Response Body =>{
+    "timestamp": "2024-04-01T23:52:23.077+00:00",
+    "status": 401,
+    "error": "Unauthorized",
+    "path": "/lms/users/activeUsers"
+}
+2024-04-01T19:52:23,631 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>GET
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus
+ Request Body =>null
+ Response Body =>{
+    "timestamp": "2024-04-01T23:52:23.270+00:00",
+    "status": 401,
+    "error": "Unauthorized",
+    "path": "/lms/users/byStatus"
+}
+2024-04-01T19:52:23,827 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>GET
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/programBatch/9785
+ Request Body =>null
+ Response Body =>{
+    "timestamp": "2024-04-01T23:52:23.467+00:00",
+    "status": 401,
+    "error": "Unauthorized",
+    "path": "/lms/users/programBatch/9785"
+}
+2024-04-01T19:52:24,008 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>GET
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/programs/17482
+ Request Body =>null
+ Response Body =>{
+    "timestamp": "2024-04-01T23:52:23.649+00:00",
+    "status": 401,
+    "error": "Unauthorized",
+    "path": "/lms/users/programs/17482"
+}
+2024-04-01T19:52:24,189 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>GET
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roles/R01
+ Request Body =>null
+ Response Body =>{
+    "timestamp": "2024-04-01T23:52:23.828+00:00",
+    "status": 401,
+    "error": "Unauthorized",
+    "path": "/lms/users/roles/R01"
+}
+2024-04-01T19:52:24,384 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>GET
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roles
+ Request Body =>null
+ Response Body =>{
+    "timestamp": "2024-04-01T23:52:24.022+00:00",
+    "status": 401,
+    "error": "Unauthorized",
+    "path": "/lms/users/roles"
+}
+2024-04-01T19:52:24,582 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>GET
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/v2/users
+ Request Body =>null
+ Response Body =>{
+    "timestamp": "2024-04-01T23:52:24.221+00:00",
+    "status": 401,
+    "error": "Unauthorized",
+    "path": "/lms/v2/users"
+}
+2024-04-01T19:52:24,912 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>GET
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/roles/foo
+ Request Body =>null
+ Response Body =>{
+    "timestamp": "2024-04-01T23:52:24.552+00:00",
+    "status": 404,
+    "error": "Not Found",
+    "path": "/lms/roles/foo"
+}
+2024-04-01T19:52:25,104 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>GET
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/foo
+ Request Body =>null
+ Response Body =>{
+    "message": "User not found with Id : foo ",
+    "success": false
+}
+2024-04-01T19:52:25,296 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>GET
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/fooU1575
+ Request Body =>null
+ Response Body =>{
+    "message": "User not found with Id : fooU1575 ",
+    "success": false
+}
+2024-04-01T19:52:25,497 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>GET
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/abc123
+ Request Body =>null
+ Response Body =>{
+    "message": "User not found with Id : abc123 ",
+    "success": false
+}
+2024-04-01T19:52:25,688 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>GET
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/activeUsers/foo
+ Request Body =>null
+ Response Body =>{
+    "timestamp": "2024-04-01T23:52:25.327+00:00",
+    "status": 404,
+    "error": "Not Found",
+    "path": "/lms/users/activeUsers/foo"
+}
+2024-04-01T19:52:25,892 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>GET
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus/foo
+ Request Body =>null
+ Response Body =>{
+    "timestamp": "2024-04-01T23:52:25.530+00:00",
+    "status": 404,
+    "error": "Not Found",
+    "path": "/lms/users/byStatus/foo"
+}
+2024-04-01T19:52:26,159 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>GET
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=ABC01
+ Request Body =>null
+ Response Body =>{
+    "message": "RoleID ABC01 not found",
+    "success": false
+}
+2024-04-01T19:52:26,346 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>GET
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/programBatch/foo/9785
+ Request Body =>null
+ Response Body =>{
+    "timestamp": "2024-04-01T23:52:25.987+00:00",
+    "status": 404,
+    "error": "Not Found",
+    "path": "/lms/users/programBatch/foo/9785"
+}
+2024-04-01T19:52:26,543 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>GET
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/programBatch/00000
+ Request Body =>null
+ Response Body =>{
+    "message": "batchid 0 not found",
+    "success": false
+}
+2024-04-01T19:52:26,733 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>GET
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/programs/foo/17482
+ Request Body =>null
+ Response Body =>{
+    "timestamp": "2024-04-01T23:52:26.370+00:00",
+    "status": 404,
+    "error": "Not Found",
+    "path": "/lms/users/programs/foo/17482"
+}
+2024-04-01T19:52:26,934 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>GET
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/programs/00000
+ Request Body =>null
+ Response Body =>{
+    "message": "programId 0 not found",
+    "success": false
+}
+2024-04-01T19:52:27,125 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>GET
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roles/foo/R01
+ Request Body =>null
+ Response Body =>{
+    "timestamp": "2024-04-01T23:52:26.763+00:00",
+    "status": 404,
+    "error": "Not Found",
+    "path": "/lms/users/roles/foo/R01"
+}
+2024-04-01T19:52:27,314 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>GET
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roles/A666C
+ Request Body =>null
+ Response Body =>{
+    "message": "RoleID A666C not found",
+    "success": false
+}
+2024-04-01T19:52:27,506 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>GET
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roles/foo
+ Request Body =>null
+ Response Body =>{
+    "message": "RoleID foo not found",
+    "success": false
+}
+2024-04-01T19:52:27,687 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>GET
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/v2/users/foo
+ Request Body =>null
+ Response Body =>{
+    "timestamp": "2024-04-01T23:52:27.326+00:00",
+    "status": 404,
+    "error": "Not Found",
+    "path": "/lms/v2/users/foo"
+}
+2024-04-01T19:52:28,488 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/U1575
+ Request Body =>{"userLoginEmail":"team7_apicoders123@gmail.com","userLinkedinUrl":"www.linkedin/sreevidya","userVisaStatus":"GC-EAD","userEduPg":"BTECH","userLastName":"Team7","userMiddleName":"Malineni","userPhoneNumber":"1234567651","userLocation":"Atlanta,GA","userEduUg":"MS","userFirstName":"","userComments":"TestPUT_request","userTimeZone":"CST"}
+ Response Body =>{
+    "message": "User First Name is mandatory",
+    "success": false
+}
+2024-04-01T19:52:28,721 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/U1575
+ Request Body =>{"userLoginEmail":"team7_apicoders123@gmail.com","userLinkedinUrl":"www.linkedin/sreevidya","userVisaStatus":"GC-EAD","userEduPg":"BTECH","userLastName":"","userMiddleName":"Malineni","userPhoneNumber":"1234567651","userLocation":"Atlanta,GA","userEduUg":"MS","userFirstName":"APICoders_sree","userComments":"TestPUT_request","userTimeZone":"CST"}
+ Response Body =>{
+    "message": "User Last Name is mandatory",
+    "success": false
+}
+2024-04-01T19:52:28,959 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/U1575
+ Request Body =>{"userLoginEmail":"team7_apicoders123@gmail.com","userLinkedinUrl":"www.linkedin/sreevidya","userVisaStatus":"GC-EAD","userEduPg":"BTECH","userLastName":"Team7","userMiddleName":"Malineni","userPhoneNumber":"","userLocation":"Atlanta,GA","userEduUg":"MS","userFirstName":"APICoders_sree","userComments":"TestPUT_request","userTimeZone":"CST"}
+ Response Body =>{
+    "message": "Phone Number is required",
+    "success": false
+}
+2024-04-01T19:52:29,203 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/U1575
+ Request Body =>{"userLoginEmail":"team7_apicoders123@gmail.com","userLinkedinUrl":"www.linkedin/sreevidya","userVisaStatus":"","userEduPg":"BTECH","userLastName":"Team7","userMiddleName":"Malineni","userPhoneNumber":"1234567651","userLocation":"Atlanta,GA","userEduUg":"MS","userFirstName":"APICoders_sree","userComments":"TestPUT_request","userTimeZone":"CST"}
+ Response Body =>{
+    "message": "Failed to update user, as 'Visa Status' is invalid !! ",
+    "success": false
+}
+2024-04-01T19:52:29,489 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/U1575
+ Request Body =>{"userLoginEmail":"team7_apicoders123@gmail.com","userLinkedinUrl":"www.linkedin/sreevidya","userVisaStatus":"GC-EAD","userEduPg":"BTECH","userLastName":"Team7","userMiddleName":"Malineni","userPhoneNumber":"1234567651","userLocation":"Atlanta,GA","userEduUg":"MS","userFirstName":"APICoders_sree","userComments":"TestPUT_request","userTimeZone":""}
+ Response Body =>{
+    "message": "Failed to update user, as 'TimeZone' is invalid !! ",
+    "success": false
+}
+2024-04-01T19:52:30,447 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/U1575
+ Request Body =>{"userLoginEmail":"team7_apicoders123@gmail.com","userLinkedinUrl":"www.linkedin/sreevidya","userVisaStatus":"GC-EAD","userEduPg":"BTECH","userLastName":"Team7","userMiddleName":"Malineni","userPhoneNumber":"$$","userLocation":"Atlanta,GA","userEduUg":"MS","userFirstName":"APICoders_sree","userComments":"TestPUT_request","userTimeZone":"CST"}
+ Response Body =>{
+    "message": "Cannot deserialize value of type `long` from String \"$$\": not a valid `long` value\n at [Source: (PushbackInputStream); line: 1, column: 208] (through reference chain: com.numpyninja.lms.dto.UserDto[\"userPhoneNumber\"])",
+    "success": false
+}
+2024-04-01T19:52:30,690 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/U1575
+ Request Body =>{"userLoginEmail":"team7_apicoders123@gmail.com","userLinkedinUrl":"www.linkedin/sreevidya","userVisaStatus":"$$","userEduPg":"BTECH","userLastName":"Team7","userMiddleName":"Malineni","userPhoneNumber":"1234567651","userLocation":"Atlanta,GA","userEduUg":"MS","userFirstName":"APICoders_sree","userComments":"TestPUT_request","userTimeZone":"CST"}
+ Response Body =>{
+    "message": "Failed to update user, as 'Visa Status' is invalid !! ",
+    "success": false
+}
+2024-04-01T19:52:30,927 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/U1575
+ Request Body =>{"userLoginEmail":"team7_apicoders123@gmail.com","userLinkedinUrl":"www.linkedin/sreevidya","userVisaStatus":"GC-EAD","userEduPg":"BTECH","userLastName":"Team7","userMiddleName":"Malineni","userPhoneNumber":"1234567651","userLocation":"Atlanta,GA","userEduUg":"MS","userFirstName":"APICoders_sree","userComments":"TestPUT_request","userTimeZone":"$$"}
+ Response Body =>{
+    "message": "Failed to update user, as 'TimeZone' is invalid !! ",
+    "success": false
+}
+2024-04-01T19:52:33,187 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/U1575
+ Request Body =>{"userLoginEmail":"team7_apicoders123@gmail.com","userLinkedinUrl":"www.linkedin/sreevidya","userVisaStatus":"ABC","userEduPg":"BTECH","userLastName":"Team7","userMiddleName":"Malineni","userPhoneNumber":"1234567651","userLocation":"Atlanta,GA","userEduUg":"MS","userFirstName":"APICoders_sree","userComments":"TestPUT_request","userTimeZone":"CST"}
+ Response Body =>{
+    "message": "Failed to update user, as 'Visa Status' is invalid !! ",
+    "success": false
+}
+2024-04-01T19:52:33,435 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/U1575
+ Request Body =>{"userLoginEmail":"team7_apicoders123@gmail.com","userLinkedinUrl":"www.linkedin/sreevidya","userVisaStatus":"GC-EAD","userEduPg":"BTECH","userLastName":"Team7","userMiddleName":"Malineni","userPhoneNumber":"1234567651","userLocation":"Atlanta,GA","userEduUg":"MS","userFirstName":"APICoders_sree","userComments":"TestPUT_request","userTimeZone":"ABC"}
+ Response Body =>{
+    "message": "Failed to update user, as 'TimeZone' is invalid !! ",
+    "success": false
+}
+2024-04-01T19:52:34,165 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/U1575
+ Request Body =>{"userLoginEmail":"team7_apicoders123@gmail.com","userLinkedinUrl":"www.linkedin/sreevidya","userVisaStatus":"GC-EAD","userEduPg":"BTECH","userLastName":"Team7","userMiddleName":"Malineni","userPhoneNumber":"ABC","userLocation":"Atlanta,GA","userEduUg":"MS","userFirstName":"APICoders_sree","userComments":"TestPUT_request","userTimeZone":"CST"}
+ Response Body =>{
+    "message": "Cannot deserialize value of type `long` from String \"ABC\": not a valid `long` value\n at [Source: (PushbackInputStream); line: 1, column: 208] (through reference chain: com.numpyninja.lms.dto.UserDto[\"userPhoneNumber\"])",
+    "success": false
+}
+2024-04-01T19:52:37,448 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/U1575
+ Request Body =>{"userLoginEmail":"abc@gmail.com","userLinkedinUrl":"abc","userVisaStatus":"H1B","userEduPg":"abc","userLastName":"abc","userMiddleName":"abc","userPhoneNumber":1234567834,"userLocation":"abc","userEduUg":"abc","userFirstName":"abc","userComments":"abc","userTimeZone":"EST"}
+ Response Body =>{
+    "timestamp": "2024-04-01T23:52:37.087+00:00",
+    "status": 401,
+    "error": "Unauthorized",
+    "path": "/lms/users/U1575"
+}
+2024-04-01T19:52:37,643 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/124tghhv
+ Request Body =>{"userLoginEmail":"abc@gmail.com","userLinkedinUrl":"abc","userVisaStatus":"H1B","userEduPg":"abc","userLastName":"abc","userMiddleName":"abc","userPhoneNumber":1234567834,"userLocation":"abc","userEduUg":"abc","userFirstName":"abc","userComments":"abc","userTimeZone":"EST"}
+ Response Body =>{
+    "message": "UserID: 124tghhv Not Found",
+    "success": false
+}
+2024-04-01T19:52:42,288 [main] INFO  (UserLogoutStepDef.java:35) - LoggereyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJudW1weW5pbmphQGdtYWlsLmNvbSIsImlhdCI6MTcxMjAxNTQyOSwiZXhwIjoxNzEyMDQ0MjI5fQ.Vh0ql3NpKvbGqxjOyxKJlA-bZ1MEx2iVUh90CXAVM2DmCYHfS0sZCVDcPvciEh4jZ0NS2R1sZ32HsrujSgz4Pg
+2024-04-01T19:52:42,494 [main] INFO  (UserLogoutStepDef.java:35) - LoggereyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJudW1weW5pbmphQGdtYWlsLmNvbSIsImlhdCI6MTcxMjAxNTQyOSwiZXhwIjoxNzEyMDQ0MjI5fQ.Vh0ql3NpKvbGqxjOyxKJlA-bZ1MEx2iVUh90CXAVM2DmCYHfS0sZCVDcPvciEh4jZ0NS2R1sZ32HsrujSgz4Pg
+2024-04-01T23:47:24,951 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/putprogram/-1
+ Request Body =>{"programDescription":"updated description1","programName":"March24-APICoders-updated278","programStatus":"inactive"}
+ Response Body =>{
+    "message": "program with id-1not found",
+    "success": false
+}
+2024-04-01T23:47:25,825 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>GET
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/program/March24-APICoders-updated296
+ Request Body =>{"programDescription":"updated description1","programName":"March24-APICoders-updated673","programStatus":"inactive"}
+ Response Body =>{
+    "timestamp": "2024-04-02T03:47:25.993+00:00",
+    "status": 405,
+    "error": "Method Not Allowed",
+    "path": "/lms/program/March24-APICoders-updated296"
+}
+2024-04-01T23:47:26,076 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/program/March24-APICoders-updated296
+ Request Body =>{"programDescription":"updated description1","programName":"March24-APICoders-updated68","programStatus":"inactive"}
+ Response Body =>{
+    "message": "no list with such program name March24-APICoders-updated296",
+    "success": false
+}
+2024-04-01T23:47:26,316 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/program/March24-APICoders-updated296
+ Request Body =>{"programDescription":"updated description2","programName":"503","programStatus":"active"}
+ Response Body =>{
+    "message": "programName must begin with alphabet and can contain only alphanumeric characters",
+    "success": false
+}
+2024-04-01T23:47:26,578 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/program/March24-APICoders-updated296
+ Request Body =>{"programDescription":"updated description3","programName":"March24-APICoders-new904","programStatus":"active"}
+ Response Body =>{
+    "message": "no list with such program name March24-APICoders-updated296",
+    "success": false
+}
+2024-04-01T23:47:26,834 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/program/March24-APICoders-updated296
+ Request Body =>{"programDescription":"updated description3","programName":"March24-APICoders-updated233","programStatus":""}
+ Response Body =>{
+    "message": "Invalid Status: must be Active or Inactive",
+    "success": false
+}
+2024-04-01T23:47:27,113 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/program/March24-APICoders-updated296
+ Request Body =>{"programDescription":"updated description3","programName":"March24-APICoders-updated699","programStatus":"111"}
+ Response Body =>{
+    "message": "Invalid Status: must be Active or Inactive",
+    "success": false
+}
+2024-04-01T23:47:27,375 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/program/March24-APICoders-updated296
+ Request Body =>{"programDescription":"updated description3","programName":"March24-APICoders-updated16","programStatus":"$$$"}
+ Response Body =>{
+    "message": "Invalid Status: must be Active or Inactive",
+    "success": false
+}
+2024-04-01T23:47:27,640 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/program/March24-APICoders-updated296
+ Request Body =>{"programDescription":"1234","programName":"March24-APICoders-updated814","programStatus":"active"}
+ Response Body =>{
+    "message": "programDescription must begin with alphabet and can contain only alphanumeric characters",
+    "success": false
+}
+2024-04-01T23:47:27,901 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/program/March24-APICoders-updated296
+ Request Body =>{"programDescription":"","programName":"254","programStatus":""}
+ Response Body =>{
+    "message": "Invalid Status: must be Active or Inactive",
+    "success": false
+}
+2024-04-01T23:47:28,630 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/program/March24-APICoders-updated296
+ Request Body =>{"programDescription":"test","programName":"March24-APICoders-2961","programStatus":"active"}
+ Response Body =>{
+    "timestamp": "2024-04-02T03:47:28.801+00:00",
+    "status": 401,
+    "error": "Unauthorized",
+    "path": "/lms/program/March24-APICoders-updated296"
+}
+2024-04-01T23:47:29,231 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/batches
+ Request Body =>{"batchName":"C# Lang11","batchNoOfClasses":"","batchDescription":"Morning Batch","batchStatus":"INACTIVE","programId":17671}
+ Response Body =>{
+    "message": " No of Classes is needed; It should be a positive number ",
+    "success": false
+}
+2024-04-01T23:47:29,481 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/batches
+ Request Body =>{"batchName":"Python11","batchNoOfClasses":"89","batchDescription":"Afternoon Batch","batchStatus":"QQ","programId":17671}
+ Response Body =>{
+    "message": "Invalid Status: must be Active or Inactive",
+    "success": false
+}
+2024-04-01T23:47:29,731 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/batches
+ Request Body =>{"batchName":"C lang11","batchNoOfClasses":"45","batchDescription":"Morning Batch","batchStatus":"123","programId":17671}
+ Response Body =>{
+    "message": "Invalid Status: must be Active or Inactive",
+    "success": false
+}
+2024-04-01T23:47:30,301 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/batches
+ Request Body =>{"batchName":"VB .net","batchNoOfClasses":"34","batchDescription":"","batchStatus":"ACTIVE","programId":17671}
+ Response Body =>{
+    "message": "batchDescription must begin with alphabet and can contain only alphanumeric characters",
+    "success": false
+}
+2024-04-01T23:47:30,538 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/batches
+ Request Body =>{"batchName":"Java11","batchNoOfClasses":"{{","batchDescription":"Evening Batch","batchStatus":"ACTIVE","programId":17671}
+ Response Body =>{
+    "message": "Cannot deserialize value of type `int` from String \"{{\": not a valid `int` value\n at [Source: (PushbackInputStream); line: 1, column: 42] (through reference chain: com.numpyninja.lms.dto.BatchDTO[\"batchNoOfClasses\"])",
+    "success": false
+}
+2024-04-01T23:47:31,134 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/batches
+ Request Body =>{"batchName":"VB sci","batchNoOfClasses":"10","batchDescription":"99","batchStatus":"ACTIVE","programId":17671}
+ Response Body =>{
+    "message": "batchDescription must begin with alphabet and can contain only alphanumeric characters",
+    "success": false
+}
+2024-04-01T23:47:31,390 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/batches
+ Request Body =>{"batchName":"Java11c","batchNoOfClasses":"$","batchDescription":"#","batchStatus":"ACTIVE","programId":17671}
+ Response Body =>{
+    "message": "Cannot deserialize value of type `int` from String \"$\": not a valid `int` value\n at [Source: (PushbackInputStream); line: 1, column: 43] (through reference chain: com.numpyninja.lms.dto.BatchDTO[\"batchNoOfClasses\"])",
+    "success": false
+}
+2024-04-01T23:47:31,650 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/batches
+ Request Body =>{"batchName":"","batchNoOfClasses":"","batchDescription":"","batchStatus":"","programId":17671}
+ Response Body =>{
+    "message": " No of Classes is needed; It should be a positive number ",
+    "success": false
+}
+2024-04-01T23:47:33,716 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/batches/9940
+ Request Body =>{"batchName":"Python","batchNoOfClasses":"","programName":"Java advance","batchDescription":"afternoon batch","batchStatus":"Inactive","programId":17671}
+ Response Body =>{
+    "message": " No of Classes is needed; It should be a positive number ",
+    "success": false
+}
+2024-04-01T23:47:33,717 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/batches/9940
+ Request Body =>{"batchName":"Python","batchNoOfClasses":"","programName":"Java advance","batchDescription":"afternoon batch","batchStatus":"Inactive","programId":17671}
+ Response Body =>{
+    "message": " No of Classes is needed; It should be a positive number ",
+    "success": false
+}
+2024-04-01T23:47:33,948 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/batches/9940
+ Request Body =>{"batchName":"","batchNoOfClasses":"56","programName":"java basic","batchDescription":"Evening Batch","batchStatus":"Qq","programId":17671}
+ Response Body =>{
+    "message": "Invalid Status: must be Active or Inactive",
+    "success": false
+}
+2024-04-01T23:47:33,949 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/batches/9940
+ Request Body =>{"batchName":"","batchNoOfClasses":"56","programName":"java basic","batchDescription":"Evening Batch","batchStatus":"Qq","programId":17671}
+ Response Body =>{
+    "message": "Invalid Status: must be Active or Inactive",
+    "success": false
+}
+2024-04-01T23:47:34,172 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/batches/9940
+ Request Body =>{"batchName":"C# Lan","batchNoOfClasses":"","programName":"java basic","batchDescription":"morning batch","batchStatus":"123","programId":17671}
+ Response Body =>{
+    "message": " No of Classes is needed; It should be a positive number ",
+    "success": false
+}
+2024-04-01T23:47:34,174 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/batches/9940
+ Request Body =>{"batchName":"C# Lan","batchNoOfClasses":"","programName":"java basic","batchDescription":"morning batch","batchStatus":"123","programId":17671}
+ Response Body =>{
+    "message": " No of Classes is needed; It should be a positive number ",
+    "success": false
+}
+2024-04-01T23:47:34,395 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/batches/9940
+ Request Body =>{"batchName":"java","batchNoOfClasses":"20","programName":"Java basic","batchDescription":"afternoon batch","batchStatus":"","programId":17671}
+ Response Body =>{
+    "message": "Batch status is needed",
+    "success": false
+}
+2024-04-01T23:47:34,396 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/batches/9940
+ Request Body =>{"batchName":"java","batchNoOfClasses":"20","programName":"Java basic","batchDescription":"afternoon batch","batchStatus":"","programId":17671}
+ Response Body =>{
+    "message": "Batch status is needed",
+    "success": false
+}
+2024-04-01T23:47:34,622 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/batches/9940
+ Request Body =>{"batchName":"javaadvance","batchNoOfClasses":"90","programName":"","batchDescription":"Evening Batch","batchStatus":"Active","programId":17671}
+ Response Body =>{
+    "message": "programName must begin with alphabet and can contain only alphanumeric characters",
+    "success": false
+}
+2024-04-01T23:47:34,623 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/batches/9940
+ Request Body =>{"batchName":"javaadvance","batchNoOfClasses":"90","programName":"","batchDescription":"Evening Batch","batchStatus":"Active","programId":17671}
+ Response Body =>{
+    "message": "programName must begin with alphabet and can contain only alphanumeric characters",
+    "success": false
+}
+2024-04-01T23:47:34,867 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/batches/9940
+ Request Body =>{"batchName":"","batchNoOfClasses":"","programName":"","batchDescription":"Evening Batch","batchStatus":"","programId":17671}
+ Response Body =>{
+    "message": "Invalid Status: must be Active or Inactive",
+    "success": false
+}
+2024-04-01T23:47:34,868 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/batches/9940
+ Request Body =>{"batchName":"","batchNoOfClasses":"","programName":"","batchDescription":"Evening Batch","batchStatus":"","programId":17671}
+ Response Body =>{
+    "message": "Invalid Status: must be Active or Inactive",
+    "success": false
+}
+2024-04-01T23:47:35,154 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/batches/9940
+ Request Body =>{"batchName":"#####","batchNoOfClasses":"23","programName":"Java basic","batchDescription":"afternoon batch","batchStatus":"Inactive","programId":17671}
+ Response Body =>{
+    "message": "batchName must begin with alphabet and can contain only alphanumeric characters",
+    "success": false
+}
+2024-04-01T23:47:35,155 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/batches/9940
+ Request Body =>{"batchName":"#####","batchNoOfClasses":"23","programName":"Java basic","batchDescription":"afternoon batch","batchStatus":"Inactive","programId":17671}
+ Response Body =>{
+    "message": "batchName must begin with alphabet and can contain only alphanumeric characters",
+    "success": false
+}
+2024-04-01T23:47:35,859 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/batches/9940
+ Request Body =>{"batchName":"C lang","batchNoOfClasses":"#####","programName":"Java advance","batchDescription":"Evening Batch","batchStatus":"Active","programId":17671}
+ Response Body =>{
+    "message": "Cannot deserialize value of type `int` from String \"#####\": not a valid `int` value\n at [Source: (PushbackInputStream); line: 1, column: 42] (through reference chain: com.numpyninja.lms.dto.BatchDTO[\"batchNoOfClasses\"])",
+    "success": false
+}
+2024-04-01T23:47:35,860 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/batches/9940
+ Request Body =>{"batchName":"C lang","batchNoOfClasses":"#####","programName":"Java advance","batchDescription":"Evening Batch","batchStatus":"Active","programId":17671}
+ Response Body =>{
+    "message": "Cannot deserialize value of type `int` from String \"#####\": not a valid `int` value\n at [Source: (PushbackInputStream); line: 1, column: 42] (through reference chain: com.numpyninja.lms.dto.BatchDTO[\"batchNoOfClasses\"])",
+    "success": false
+}
+2024-04-01T23:47:36,075 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/batches/9940
+ Request Body =>{"batchName":"C lang","batchNoOfClasses":"56","programName":"Java advance","batchDescription":"Evening Batch","batchStatus":"###","programId":17671}
+ Response Body =>{
+    "message": "Invalid Status: must be Active or Inactive",
+    "success": false
+}
+2024-04-01T23:47:36,076 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/batches/9940
+ Request Body =>{"batchName":"C lang","batchNoOfClasses":"56","programName":"Java advance","batchDescription":"Evening Batch","batchStatus":"###","programId":17671}
+ Response Body =>{
+    "message": "Invalid Status: must be Active or Inactive",
+    "success": false
+}
+2024-04-01T23:47:36,334 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/batches/9940
+ Request Body =>{"batchName":"C lang","batchNoOfClasses":"56","programName":"###","batchDescription":"Evening Batch","batchStatus":"inactive ","programId":17671}
+ Response Body =>{
+    "message": "programName must begin with alphabet and can contain only alphanumeric characters",
+    "success": false
+}
+2024-04-01T23:47:36,336 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/batches/9940
+ Request Body =>{"batchName":"C lang","batchNoOfClasses":"56","programName":"###","batchDescription":"Evening Batch","batchStatus":"inactive ","programId":17671}
+ Response Body =>{
+    "message": "programName must begin with alphabet and can contain only alphanumeric characters",
+    "success": false
+}
+2024-04-01T23:47:36,561 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/batches/10098677
+ Request Body =>{"batchName":"C# Lang11","batchNoOfClasses":"45","programName":"JAVA","batchDescription":"afternoon batch","batchStatus":"Active","programId":17671}
+ Response Body =>{
+    "message": "Batch not found with Id : 10098677 ",
+    "success": false
+}
+2024-04-01T23:47:36,780 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/batches/foo/9940
+ Request Body =>{"batchName":"C# Lang11","batchNoOfClasses":"45","programName":"JAVA","batchDescription":"afternoon batch","batchStatus":"Active","programId":17671}
+ Response Body =>{
+    "timestamp": "2024-04-02T03:47:36.952+00:00",
+    "status": 404,
+    "error": "Not Found",
+    "path": "/lms/batches/foo/9940"
+}
+2024-04-01T23:47:39,650 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>PUT
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/batches/9940
+ Request Body =>{"batchName":"JavaMp_apicoders","batchNoOfClasses":20,"programName":"SMPO","batchDescription":"MorningBatch","batchStatus":"ACTIVE","programId":17671}
+ Response Body =>{
+    "timestamp": "2024-04-02T03:47:39.819+00:00",
+    "status": 401,
+    "error": "Unauthorized",
+    "path": "/lms/batches/9940"
+}
+2024-04-01T23:47:53,129 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"H4-EAD","userEduPg":"","userPhoneNumber":"6785463398","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"Active","roleId":"R01"}],"userComments":"Admin_allfeilds","userTimeZone":"EST","userLogin":{"userLoginEmail":"XFmVR4_sree.malineni.48@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"www.linkedin.com","userLastName":"Malineni","userMiddleName":"NA","userEduUg":"MS"}
+ Response Body =>{
+    "message": "userEduPgmust begin with alphabet and can contain only alphanumeric characters",
+    "success": false
+}
+2024-04-01T23:47:53,386 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"H4-EAD","userEduPg":"BE","userPhoneNumber":"6785469109","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"Active","roleId":"R01"}],"userComments":"Admin_allfeilds","userTimeZone":"EST","userLogin":{"userLoginEmail":"heG0jC_sree.malineni.48@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"www.linkedin.com","userLastName":"Malineni","userMiddleName":"NA","userEduUg":""}
+ Response Body =>{
+    "message": "userEduUg must begin with alphabet and can contain only alphanumeric characters",
+    "success": false
+}
+2024-04-01T23:47:53,611 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"H4-EAD","userEduPg":"BE","userPhoneNumber":"6785467526","userLocation":"USA","userFirstName":"","userRoleMaps":[{"userRoleStatus":"Active","roleId":"R01"}],"userComments":"Admin_allfeilds","userTimeZone":"EST","userLogin":{"userLoginEmail":"rPRoTn_sree.malineni.48@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"www.linkedin.com","userLastName":"Malineni","userMiddleName":"NA","userEduUg":"MS"}
+ Response Body =>{
+    "message": "userFirstName must contain two or more alphabets only",
+    "success": false
+}
+2024-04-01T23:47:53,834 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"H4-EAD","userEduPg":"BE","userPhoneNumber":"6785457476","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"Active","roleId":"R01"}],"userComments":"Admin_allfeilds","userTimeZone":"EST","userLogin":{"userLoginEmail":"ANvXhP_sree.malineni.48@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"www.linkedin.com","userLastName":"","userMiddleName":"NA","userEduUg":"MS"}
+ Response Body =>{
+    "message": "userLastName must contain one or more alphabets only",
+    "success": false
+}
+2024-04-01T23:47:54,060 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"H4-EAD","userEduPg":"BE","userPhoneNumber":"6785440782","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"Active","roleId":"R01"}],"userComments":"Admin_allfeilds","userTimeZone":"EST","userLogin":{"userLoginEmail":"QNH5G6_sree.malineni.48@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"","userLastName":"Malineni","userMiddleName":"NA","userEduUg":"MS"}
+ Response Body =>{
+    "message": "userLinkedinUrlmust contain www.linkedin.com",
+    "success": false
+}
+2024-04-01T23:47:55,818 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"H4-EAD","userEduPg":"BE","userPhoneNumber":"6785443773","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"Active","roleId":"R01"}],"userComments":"Admin_allfeilds","userTimeZone":"EST","userLogin":{"userLoginEmail":"dSA0qa_sree.malineni.48@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"www.linkedin.com","userLastName":"Malineni","userMiddleName":"","userEduUg":"MS"}
+ Response Body =>{
+    "message": "userMiddleName must contain one or more alphabets only",
+    "success": false
+}
+2024-04-01T23:47:56,090 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"H4-EAD","userEduPg":"BE","userPhoneNumber":"14754","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"Active","roleId":"R01"}],"userComments":"Admin_allfeilds","userTimeZone":"EST","userLogin":{"userLoginEmail":"xI4vlz_sree.malineni.48@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"www.linkedin.com","userLastName":"Malineni","userMiddleName":"NA","userEduUg":"MS"}
+ Response Body =>{
+    "message": "Enter phone no in this format (CountryCode)(PhoneNo) +91 1234567890",
+    "success": false
+}
+2024-04-01T23:47:56,345 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"H4-EAD","userEduPg":"BE","userPhoneNumber":"6785435999","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"Active","roleId":""}],"userComments":"Admin_allfeilds","userTimeZone":"EST","userLogin":{"userLoginEmail":"L1ub23_sree.malineni.48@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"www.linkedin.com","userLastName":"Malineni","userMiddleName":"NA","userEduUg":"MS"}
+ Response Body =>{
+    "message": "Role Id is mandatory",
+    "success": false
+}
+2024-04-01T23:47:56,588 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"H4-EAD","userEduPg":"BE","userPhoneNumber":"6785482711","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"","roleId":"R01"}],"userComments":"Admin_allfeilds","userTimeZone":"EST","userLogin":{"userLoginEmail":"3IZznt_sree.malineni.48@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"www.linkedin.com","userLastName":"Malineni","userMiddleName":"NA","userEduUg":"MS"}
+ Response Body =>{
+    "message": "Role Status is Mandatory",
+    "success": false
+}
+2024-04-01T23:47:56,856 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"H4-EAD","userEduPg":"BE","userPhoneNumber":"6785496703","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"Active","roleId":"R01"}],"userComments":"Admin_allfeilds","userTimeZone":"","userLogin":{"userLoginEmail":"ccjwe5_sree.malineni.48@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"www.linkedin.com","userLastName":"Malineni","userMiddleName":"NA","userEduUg":"MS"}
+ Response Body =>{
+    "message": "Failed to create user, as 'TimeZone' is invalid !! ",
+    "success": false
+}
+2024-04-01T23:47:57,128 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"","userEduPg":"BE","userPhoneNumber":"6785425333","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"Active","roleId":"R01"}],"userComments":"Admin_allfeilds","userTimeZone":"EST","userLogin":{"userLoginEmail":"cLOdUC_sree.malineni.48@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"www.linkedin.com","userLastName":"Malineni","userMiddleName":"NA","userEduUg":"MS"}
+ Response Body =>{
+    "message": "Failed to create user, as 'Visa Status' is invalid !! ",
+    "success": false
+}
+2024-04-01T23:47:57,383 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"H4-EAD","userEduPg":"$$","userPhoneNumber":"6785444721","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"Active","roleId":"R01"}],"userComments":"Admin_allfeilds","userTimeZone":"EST","userLogin":{"userLoginEmail":"z4muck_sree.malineni.48@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"www.linkedin.com","userLastName":"Malineni","userMiddleName":"NA","userEduUg":"MS"}
+ Response Body =>{
+    "message": "userEduPgmust begin with alphabet and can contain only alphanumeric characters",
+    "success": false
+}
+2024-04-01T23:47:57,618 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"H4-EAD","userEduPg":"BE","userPhoneNumber":"6785469034","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"Active","roleId":"R01"}],"userComments":"Admin_allfeilds","userTimeZone":"EST","userLogin":{"userLoginEmail":"Doiyab_sree.malineni.48@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"www.linkedin.com","userLastName":"Malineni","userMiddleName":"NA","userEduUg":"$$"}
+ Response Body =>{
+    "message": "userEduUg must begin with alphabet and can contain only alphanumeric characters",
+    "success": false
+}
+2024-04-01T23:47:57,843 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"H4-EAD","userEduPg":"BE","userPhoneNumber":"6785465225","userLocation":"USA","userFirstName":"$$","userRoleMaps":[{"userRoleStatus":"Active","roleId":"R01"}],"userComments":"Admin_allfeilds","userTimeZone":"EST","userLogin":{"userLoginEmail":"CQkzNn_sree.malineni.48@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"www.linkedin.com","userLastName":"Malineni","userMiddleName":"NA","userEduUg":"MS"}
+ Response Body =>{
+    "message": "userFirstName must contain two or more alphabets only",
+    "success": false
+}
+2024-04-01T23:47:58,089 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"H4-EAD","userEduPg":"BE","userPhoneNumber":"6785423231","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"Active","roleId":"R01"}],"userComments":"Admin_allfeilds","userTimeZone":"EST","userLogin":{"userLoginEmail":"iUuBGz_sree.malineni.48@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"www.linkedin.com","userLastName":"$$","userMiddleName":"NA","userEduUg":"MS"}
+ Response Body =>{
+    "message": "userLastName must contain one or more alphabets only",
+    "success": false
+}
+2024-04-01T23:47:58,324 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"H4-EAD","userEduPg":"BE","userPhoneNumber":"6785482033","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"Active","roleId":"R01"}],"userComments":"Admin_allfeilds","userTimeZone":"EST","userLogin":{"userLoginEmail":"Kho2q6_sree.malineni.48@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"$$","userLastName":"Malineni","userMiddleName":"NA","userEduUg":"MS"}
+ Response Body =>{
+    "message": "userLinkedinUrlmust contain www.linkedin.com",
+    "success": false
+}
+2024-04-01T23:47:59,234 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"H4-EAD","userEduPg":"BE","userPhoneNumber":"6785474128","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"Active","roleId":"R01"}],"userComments":"Admin_allfeilds","userTimeZone":"EST","userLogin":{"userLoginEmail":"DXuCsF_sree.malineni.48@gmail.com","password":"test123","loginStatus":"$$"},"userLinkedinUrl":"www.linkedin.com","userLastName":"Malineni","userMiddleName":"$$","userEduUg":"MS"}
+ Response Body =>{
+    "message": "userMiddleName must contain one or more alphabets only",
+    "success": false
+}
+2024-04-01T23:47:59,460 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"H4-EAD","userEduPg":"BE","userPhoneNumber":"$$82104","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"Active","roleId":"R01"}],"userComments":"Admin_allfeilds","userTimeZone":"EST","userLogin":{"userLoginEmail":"Gc6R2q_sree.malineni.48@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"www.linkedin.com","userLastName":"Malineni","userMiddleName":"NA","userEduUg":"MS"}
+ Response Body =>{
+    "message": "Cannot deserialize value of type `long` from String \"$$82104\": not a valid `long` value\n at [Source: (PushbackInputStream); line: 1, column: 63] (through reference chain: com.numpyninja.lms.dto.UserLoginRoleDTO[\"userPhoneNumber\"])",
+    "success": false
+}
+2024-04-01T23:47:59,703 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"H4-EAD","userEduPg":"BE","userPhoneNumber":"140313","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"Active","roleId":"R01"}],"userComments":"Admin_allfeilds","userTimeZone":"EST","userLogin":{"userLoginEmail":"nklxQO_sree.malineni.48@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"www.linkedin.com","userLastName":"Malineni","userMiddleName":"NA","userEduUg":"MS"}
+ Response Body =>{
+    "message": "Enter phone no in this format (CountryCode)(PhoneNo) +91 1234567890",
+    "success": false
+}
+2024-04-01T23:47:59,943 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"H4-EAD","userEduPg":"BE","userPhoneNumber":"6785451757","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"Active","roleId":"$$"}],"userComments":"Admin_allfeilds","userTimeZone":"EST","userLogin":{"userLoginEmail":"eLdm4X_sree.malineni.48@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"www.linkedin.com","userLastName":"Malineni","userMiddleName":"NA","userEduUg":"MS"}
+ Response Body =>{
+    "message": "Failed to create user, as 'roleId' is invalid !! ",
+    "success": false
+}
+2024-04-01T23:48:00,199 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"H4-EAD","userEduPg":"BE","userPhoneNumber":"6785436393","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"Active","roleId":"123"}],"userComments":"Admin_allfeilds","userTimeZone":"EST","userLogin":{"userLoginEmail":"IltGAr_sree.malineni.48@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"www.linkedin.com","userLastName":"Malineni","userMiddleName":"NA","userEduUg":"MS"}
+ Response Body =>{
+    "message": "Failed to create user, as 'roleId' is invalid !! ",
+    "success": false
+}
+2024-04-01T23:48:00,459 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"H4-EAD","userEduPg":"BE","userPhoneNumber":"6785440332","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"$$","roleId":"R01"}],"userComments":"Admin_allfeilds","userTimeZone":"EST","userLogin":{"userLoginEmail":"cuQN7a_sree.malineni.48@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"www.linkedin.com","userLastName":"Malineni","userMiddleName":"NA","userEduUg":"MS"}
+ Response Body =>{
+    "message": "Invalid Status: must be Active or Inactive",
+    "success": false
+}
+2024-04-01T23:48:00,693 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"H4-EAD","userEduPg":"BE","userPhoneNumber":"6785469423","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"activate","roleId":"R01"}],"userComments":"Admin_allfeilds","userTimeZone":"EST","userLogin":{"userLoginEmail":"C7SYHM_sree.malineni.48@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"www.linkedin.com","userLastName":"Malineni","userMiddleName":"NA","userEduUg":"MS"}
+ Response Body =>{
+    "message": "Invalid Status: must be Active or Inactive",
+    "success": false
+}
+2024-04-01T23:48:00,941 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"H4-EAD","userEduPg":"BE","userPhoneNumber":"6785436010","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"Active","roleId":"R01"}],"userComments":"Admin_allfeilds","userTimeZone":"$$","userLogin":{"userLoginEmail":"K3zOHV_sree.malineni.48@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"www.linkedin.com","userLastName":"Malineni","userMiddleName":"NA","userEduUg":"MS"}
+ Response Body =>{
+    "message": "Failed to create user, as 'TimeZone' is invalid !! ",
+    "success": false
+}
+2024-04-01T23:48:01,167 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"H4-EAD","userEduPg":"BE","userPhoneNumber":"6785410292","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"Active","roleId":"R01"}],"userComments":"Admin_allfeilds","userTimeZone":"ABC","userLogin":{"userLoginEmail":"yvglPy_sree.malineni.48@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"www.linkedin.com","userLastName":"Malineni","userMiddleName":"NA","userEduUg":"MS"}
+ Response Body =>{
+    "message": "Failed to create user, as 'TimeZone' is invalid !! ",
+    "success": false
+}
+2024-04-01T23:48:01,386 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"$$","userEduPg":"BE","userPhoneNumber":"6785446309","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"Active","roleId":"R01"}],"userComments":"Admin_allfeilds","userTimeZone":"EST","userLogin":{"userLoginEmail":"8VAezZ_sree.malineni.48@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"www.linkedin.com","userLastName":"Malineni","userMiddleName":"NA","userEduUg":"MS"}
+ Response Body =>{
+    "message": "Failed to create user, as 'Visa Status' is invalid !! ",
+    "success": false
+}
+2024-04-01T23:48:01,620 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"ABC","userEduPg":"BE","userPhoneNumber":"6785411448","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"Active","roleId":"R01"}],"userComments":"Admin_allfeilds","userTimeZone":"EST","userLogin":{"userLoginEmail":"YYptrR_sree.malineni.48@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"www.linkedin.com","userLastName":"Malineni","userMiddleName":"NA","userEduUg":"MS"}
+ Response Body =>{
+    "message": "Failed to create user, as 'Visa Status' is invalid !! ",
+    "success": false
+}
+2024-04-01T23:48:01,886 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"H4-EAD","userEduPg":"BE","userPhoneNumber":"6785487029","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"Active","roleId":"R01"}],"userComments":"$$","userTimeZone":"EST","userLogin":{"userLoginEmail":"AOAIwO_sree.malineni.48@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"www.linkedin.com","userLastName":"Malineni","userMiddleName":"NA","userEduUg":"MS"}
+ Response Body =>{
+    "message": "userComments must begin with alphabet and can contain only alphanumeric characters",
+    "success": false
+}
+2024-04-01T23:48:02,146 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"H4-EAD","userEduPg":"BE","userPhoneNumber":"6785433308","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"Active","roleId":"R01"}],"userComments":"Admin_allfeilds","userTimeZone":"EST","userLogin":{"userLoginEmail":"prTCcL_sree.malineni.48@gmail.com","password":"$$","loginStatus":"Active"},"userLinkedinUrl":"www.linkedin.com","userLastName":"Malineni","userMiddleName":"NA","userEduUg":"123"}
+ Response Body =>{
+    "message": "userEduUg must begin with alphabet and can contain only alphanumeric characters",
+    "success": false
+}
+2024-04-01T23:48:02,385 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"H4-EAD","userEduPg":"BE","userPhoneNumber":"6785416365","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"Active","roleId":"R01"}],"userComments":"Admin_allfeilds","userTimeZone":"EST","userLogin":{"userLoginEmail":"tkd3FN_sree.malineni.48@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"www.linkedin.com","userLastName":"Malineni","userMiddleName":"123","userEduUg":"MS"}
+ Response Body =>{
+    "message": "userMiddleName must contain one or more alphabets only",
+    "success": false
+}
+2024-04-01T23:48:02,618 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"H4-EAD","userEduPg":"BE","userPhoneNumber":"ABC23379","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"Active","roleId":"R01"}],"userComments":"Admin_allfeilds","userTimeZone":"EST","userLogin":{"userLoginEmail":"IwC3Ep_sree.malineni.48@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"www.linkedin.com","userLastName":"Malineni","userMiddleName":"NA","userEduUg":"MS"}
+ Response Body =>{
+    "message": "Cannot deserialize value of type `long` from String \"ABC23379\": not a valid `long` value\n at [Source: (PushbackInputStream); line: 1, column: 63] (through reference chain: com.numpyninja.lms.dto.UserLoginRoleDTO[\"userPhoneNumber\"])",
+    "success": false
+}
+2024-04-01T23:48:02,849 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"H4-EAD","userEduPg":"BE","userPhoneNumber":"6785493282","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"Active","roleId":"R01"}],"userComments":"Admin_allfeilds","userTimeZone":"EST","userLogin":{"userLoginEmail":"Op9yOI_sree.malineni.48@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"WWW.google.com/linkedin","userLastName":"Malineni","userMiddleName":"NA","userEduUg":"MS"}
+ Response Body =>{
+    "message": "userLinkedinUrlmust contain www.linkedin.com",
+    "success": false
+}
+2024-04-01T23:48:59,661 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"Canada-Citizen","userEduPg":"BE","userPhoneNumber":"8693063123","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"activate","roleId":"R01"}],"userComments":"LMS_Admin","userTimeZone":"IST","userLogin":{"userLoginEmail":"pLVEwm_sree.malineni.53@gmail.com","password":"test123","loginStatus":"activate"},"userLinkedinUrl":"www.linkedin.com","userLastName":"Malineni","userMiddleName":"Team","userEduUg":"MS"}
+ Response Body =>{
+    "message": "Invalid Status: must be Active or Inactive",
+    "success": false
+}
+2024-04-01T23:48:59,888 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"Canada-Citizen","userEduPg":"123","userPhoneNumber":"8693082047","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"Active","roleId":"R01"}],"userComments":"LMS_Admin","userTimeZone":"IST","userLogin":{"userLoginEmail":"7lpFXN_sree.malineni.53@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"www.linkedin.com","userLastName":"Malineni","userMiddleName":"Team","userEduUg":"MS"}
+ Response Body =>{
+    "message": "userEduPgmust begin with alphabet and can contain only alphanumeric characters",
+    "success": false
+}
+2024-04-01T23:49:00,117 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"Canada-Citizen","userEduPg":"BE","userPhoneNumber":"8693077070","userLocation":"USA","userFirstName":"123","userRoleMaps":[{"userRoleStatus":"Active","roleId":"R01"}],"userComments":"LMS_Admin","userTimeZone":"IST","userLogin":{"userLoginEmail":"ej9GCL_sree.malineni.53@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"www.linkedin.com","userLastName":"Malineni","userMiddleName":"Team","userEduUg":"MS"}
+ Response Body =>{
+    "message": "userFirstName must contain two or more alphabets only",
+    "success": false
+}
+2024-04-01T23:49:00,350 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"Canada-Citizen","userEduPg":"BE","userPhoneNumber":"8693051579","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"Active","roleId":"R01"}],"userComments":"LMS_Admin","userTimeZone":"IST","userLogin":{"userLoginEmail":"8UdZZG_sree.malineni.53@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"www.linkedin.com","userLastName":"123","userMiddleName":"Team","userEduUg":"MS"}
+ Response Body =>{
+    "message": "userLastName must contain one or more alphabets only",
+    "success": false
+}
+2024-04-01T23:49:00,626 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"Canada-Citizen","userEduPg":"BE","userPhoneNumber":"+91 5673446525","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"Active","roleId":"R01"}],"userComments":"LMS_Admin","userTimeZone":"IST","userLogin":{"userLoginEmail":"tgzsam_sree.malineni.53@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"www.linkedin.com","userLastName":"malineni","userMiddleName":"Team","userEduUg":"MS"}
+ Response Body =>{
+    "message": "Cannot deserialize value of type `long` from String \"+91 5673446525\": not a valid `long` value\n at [Source: (PushbackInputStream); line: 1, column: 71] (through reference chain: com.numpyninja.lms.dto.UserLoginRoleDTO[\"userPhoneNumber\"])",
+    "success": false
+}
+2024-04-01T23:49:00,874 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"Canada-Citizen","userEduPg":"BE","userPhoneNumber":"567345789083352","userLocation":"USA","userFirstName":"sreevidya","userRoleMaps":[{"userRoleStatus":"Active","roleId":"R01"}],"userComments":"LMS_Admin","userTimeZone":"IST","userLogin":{"userLoginEmail":"vkEq16_sree.malineni.53@gmail.com","password":"test123","loginStatus":"Active"},"userLinkedinUrl":"www.linkedin.com","userLastName":"malineni","userMiddleName":"Team","userEduUg":"MS"}
+ Response Body =>{
+    "message": "Enter phone no in this format (CountryCode)(PhoneNo) +91 1234567890",
+    "success": false
+}
+2024-04-01T23:49:01,095 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>POST
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roleStatus
+ Request Body =>{"userVisaStatus":"H1","userEduPg":"BA","userPhoneNumber":"8969763007","userLocation":"USA","userFirstName":"SRee","userRoleMaps":[{"userRoleStatus":"active","roleId":"R01"}],"userComments":"test","userTimeZone":"EST","userLogin":{"userLoginEmail":"C6UcsR_test.sree@gmail.com","password":"test123","loginStatus":"active"},"userLinkedinUrl":"www.linkedin.com","userLastName":"vidya","userMiddleName":"NA","userEduUg":"MTECH"}
+ Response Body =>{
+    "timestamp": "2024-04-02T03:49:01.259+00:00",
+    "status": 401,
+    "error": "Unauthorized",
+    "path": "/lms/users/roleStatus"
+}
+2024-04-01T23:49:01,283 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>GET
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/roles
+ Request Body =>null
+ Response Body =>{
+    "timestamp": "2024-04-02T03:49:01.449+00:00",
+    "status": 401,
+    "error": "Unauthorized",
+    "path": "/lms/roles"
+}
+2024-04-01T23:49:01,468 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>GET
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users
+ Request Body =>null
+ Response Body =>{
+    "timestamp": "2024-04-02T03:49:01.633+00:00",
+    "status": 401,
+    "error": "Unauthorized",
+    "path": "/lms/users"
+}
+2024-04-01T23:49:01,651 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>GET
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/U1703
+ Request Body =>null
+ Response Body =>{
+    "timestamp": "2024-04-02T03:49:01.818+00:00",
+    "status": 401,
+    "error": "Unauthorized",
+    "path": "/lms/users/U1703"
+}
+2024-04-01T23:49:01,831 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>GET
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/activeUsers
+ Request Body =>null
+ Response Body =>{
+    "timestamp": "2024-04-02T03:49:01.996+00:00",
+    "status": 401,
+    "error": "Unauthorized",
+    "path": "/lms/users/activeUsers"
+}
+2024-04-01T23:49:02,025 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>GET
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus
+ Request Body =>null
+ Response Body =>{
+    "timestamp": "2024-04-02T03:49:02.190+00:00",
+    "status": 401,
+    "error": "Unauthorized",
+    "path": "/lms/users/byStatus"
+}
+2024-04-01T23:49:02,203 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>GET
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/programBatch/9940
+ Request Body =>null
+ Response Body =>{
+    "timestamp": "2024-04-02T03:49:02.371+00:00",
+    "status": 401,
+    "error": "Unauthorized",
+    "path": "/lms/users/programBatch/9940"
+}
+2024-04-01T23:49:02,385 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>GET
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/programs/17671
+ Request Body =>null
+ Response Body =>{
+    "timestamp": "2024-04-02T03:49:02.549+00:00",
+    "status": 401,
+    "error": "Unauthorized",
+    "path": "/lms/users/programs/17671"
+}
+2024-04-01T23:49:02,567 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>GET
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roles/R01
+ Request Body =>null
+ Response Body =>{
+    "timestamp": "2024-04-02T03:49:02.734+00:00",
+    "status": 401,
+    "error": "Unauthorized",
+    "path": "/lms/users/roles/R01"
+}
+2024-04-01T23:49:02,744 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>GET
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roles
+ Request Body =>null
+ Response Body =>{
+    "timestamp": "2024-04-02T03:49:02.910+00:00",
+    "status": 401,
+    "error": "Unauthorized",
+    "path": "/lms/users/roles"
+}
+2024-04-01T23:49:02,941 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>GET
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/v2/users
+ Request Body =>null
+ Response Body =>{
+    "timestamp": "2024-04-02T03:49:03.105+00:00",
+    "status": 401,
+    "error": "Unauthorized",
+    "path": "/lms/v2/users"
+}
+2024-04-01T23:49:03,658 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>GET
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/roles/foo
+ Request Body =>null
+ Response Body =>{
+    "timestamp": "2024-04-02T03:49:03.779+00:00",
+    "status": 404,
+    "error": "Not Found",
+    "path": "/lms/roles/foo"
+}
+2024-04-01T23:49:04,053 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>GET
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/foo
+ Request Body =>null
+ Response Body =>{
+    "message": "User not found with Id : foo ",
+    "success": false
+}
+2024-04-01T23:49:04,572 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>GET
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/fooU1703
+ Request Body =>null
+ Response Body =>{
+    "message": "User not found with Id : fooU1703 ",
+    "success": false
+}
+2024-04-01T23:49:05,005 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>GET
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/abc123
+ Request Body =>null
+ Response Body =>{
+    "message": "User not found with Id : abc123 ",
+    "success": false
+}
+2024-04-01T23:49:05,194 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>GET
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/activeUsers/foo
+ Request Body =>null
+ Response Body =>{
+    "timestamp": "2024-04-02T03:49:05.362+00:00",
+    "status": 404,
+    "error": "Not Found",
+    "path": "/lms/users/activeUsers/foo"
+}
+2024-04-01T23:49:05,381 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>GET
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus/foo
+ Request Body =>null
+ Response Body =>{
+    "timestamp": "2024-04-02T03:49:05.547+00:00",
+    "status": 404,
+    "error": "Not Found",
+    "path": "/lms/users/byStatus/foo"
+}
+2024-04-01T23:49:05,576 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>GET
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/byStatus?id=ABC01
+ Request Body =>null
+ Response Body =>{
+    "message": "RoleID ABC01 not found",
+    "success": false
+}
+2024-04-01T23:49:05,780 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>GET
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/programBatch/foo/9940
+ Request Body =>null
+ Response Body =>{
+    "timestamp": "2024-04-02T03:49:05.946+00:00",
+    "status": 404,
+    "error": "Not Found",
+    "path": "/lms/users/programBatch/foo/9940"
+}
+2024-04-01T23:49:06,080 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>GET
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/programBatch/00000
+ Request Body =>null
+ Response Body =>{
+    "message": "batchid 0 not found",
+    "success": false
+}
+2024-04-01T23:49:06,277 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>GET
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/programs/foo/17671
+ Request Body =>null
+ Response Body =>{
+    "timestamp": "2024-04-02T03:49:06.442+00:00",
+    "status": 404,
+    "error": "Not Found",
+    "path": "/lms/users/programs/foo/17671"
+}
+2024-04-01T23:49:06,467 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>GET
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/programs/00000
+ Request Body =>null
+ Response Body =>{
+    "message": "programId 0 not found",
+    "success": false
+}
+2024-04-01T23:49:06,663 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>GET
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roles/foo/R01
+ Request Body =>null
+ Response Body =>{
+    "timestamp": "2024-04-02T03:49:06.827+00:00",
+    "status": 404,
+    "error": "Not Found",
+    "path": "/lms/users/roles/foo/R01"
+}
+2024-04-01T23:49:06,868 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>GET
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roles/A666C
+ Request Body =>null
+ Response Body =>{
+    "message": "RoleID A666C not found",
+    "success": false
+}
+2024-04-01T23:49:07,062 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>GET
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/roles/foo
+ Request Body =>null
+ Response Body =>{
+    "message": "RoleID foo not found",
+    "success": false
+}
+2024-04-01T23:49:07,255 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>GET
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/v2/users/foo
+ Request Body =>null
+ Response Body =>{
+    "timestamp": "2024-04-02T03:49:07.418+00:00",
+    "status": 404,
+    "error": "Not Found",
+    "path": "/lms/v2/users/foo"
+}
+2024-04-01T23:49:07,442 [main] ERROR (LoggingSetup.java:25) - 
+ Method =>GET
+ URI =>https://lms-marchapi-hackathon-a258d2bbd43b.herokuapp.com/lms/users/programs/17671
+ Request Body =>null
+ Response Body =>{
+    "message": "No Users found for the given program ID: 17671",
+    "success": false
+}
+2024-04-01T23:49:21,183 [main] INFO  (UserLogoutStepDef.java:34) - LoggereyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJudW1weW5pbmphQGdtYWlsLmNvbSIsImlhdCI6MTcxMjAyOTYzMCwiZXhwIjoxNzEyMDU4NDMwfQ.S4-twDpB-Ku51I2qvxfg2OiVszezsaUHTppRmm0JMWKQIJMRIRizeXZWeT4C7zJmhhye-z0gURP8XxRPtmihhQ
+2024-04-01T23:49:21,448 [main] INFO  (UserLogoutStepDef.java:34) - LoggereyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJudW1weW5pbmphQGdtYWlsLmNvbSIsImlhdCI6MTcxMjAyOTYzMCwiZXhwIjoxNzEyMDU4NDMwfQ.S4-twDpB-Ku51I2qvxfg2OiVszezsaUHTppRmm0JMWKQIJMRIRizeXZWeT4C7zJmhhye-z0gURP8XxRPtmihhQ

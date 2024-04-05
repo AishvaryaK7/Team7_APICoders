@@ -16,7 +16,7 @@ public class UserUpdateRequest extends BaseClass{
 	    
 	    public static void RoleProgramBatchStatusUpdate() throws IOException {
 	        
-	            // Assuming TotalRows indicates the total number of rows to process
+	          
 	        	int TotalRows = 5;
 
 	            for (int i = 1; i <= TotalRows; i++) { // Assuming row 1 contains headers and data starts from row 2
@@ -26,7 +26,7 @@ public class UserUpdateRequest extends BaseClass{
 	                String batchStatus = null;
 	                String programID = null;
 
-	                // Assuming the last column index you're interested in is 7 (adjust if needed)
+	               
 	                int TotalCells = 7; 
 
 	                for (int j = 0; j <= TotalCells; j++) {
@@ -58,7 +58,7 @@ public class UserUpdateRequest extends BaseClass{
 	        
 	    public static  void RoleProgramBatchStatusInvalidUpdate() throws IOException {
 	        
-            // Assuming TotalRows indicates the total number of rows to process
+            
         	int TotalRows = 5;
 
             for (int i = 4; i <= TotalRows; i++) { // Assuming row 1 contains headers and data starts from row 2
@@ -68,7 +68,7 @@ public class UserUpdateRequest extends BaseClass{
                 String batchStatus = null;
                 String programID = null;
 
-                // Assuming the last column index you're interested in is 7 (adjust if needed)
+             
                 int TotalCells = 7; 
 
                 for (int j = 0; j <= TotalCells; j++) {
